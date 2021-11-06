@@ -1,2 +1,2 @@
 
-This is the knowledge repo for miscellaneous domains.
+This is the Knowledge Capsule for miscellaneous domains.
