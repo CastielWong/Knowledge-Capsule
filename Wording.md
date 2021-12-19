@@ -25,33 +25,40 @@ This document is used to capture synonyms.
 - intrigue, interest, fascinate, appeal attract, inspire
 - spark, ignite, stimulate, urge, catalyze, spur
 - provide, furnish, offer, supply
-- drive, promote, pulse
+- drive, promote, pulse, steer
 - show up, reveal, occur
 - confuse, confound, baffle
 - retire, decommission
 - manage, steward
 - award, confer
 - spread, scatter, disperse, distribute, intersperse
-- interfere, intervene
+- interfere, intervene, disrupt, interject
 - clarify, elucidate, expound, elaborate
 - update, renovate
 - check, vet, review, scrutinize
 - disdain, contempt, despite
 - restore, reinstate, recover, reactivate
 - consider, think, mull, ponder
-- collect, hoard, glean
+- collect, hoard, glean, harvest
 - generate, engender
 - illustrate, exemplify
 - annoy, irritate
 - increase, add, surge
 - mix, intermingle, blend
 - diverge, derail
-- guess, suppose, conjecture
+- guess, suppose, conjecture, assume
 - adjust, calibrate
 - deal, tackle, solve, address, handle, overcome, dispose, manage
 - suggest, advise, propose
 - easy, effortless
 - temporal, ephemeral, transient
+- polish, brush up
+- undertake, bear
+- jog, canter
+- pardon, absolve
+- continue, carry on
+- remember, recollect, recall
+- gallop
 - aggravate
 
 
@@ -65,7 +72,8 @@ This document is used to capture synonyms.
 - sometime, occasionally
 - moreover, furthermore, besides
 - easily, readily, effortlessly
-- immediately, momentarily
+- immediately, momentarily, imminently
+- exactly, precisely, accurately, immaculately
 - sparely
 
 
@@ -103,6 +111,11 @@ This document is used to capture synonyms.
 - constant, ceaseless
 - prospective, promising
 - avoidable, negligible, neglectable
+- perfect, immaculate
+- useless, futile, impotent
+- cogent, persuasive, reasonable
+- awful, dreadful
+- dull, obtuse
 
 
 ## Conjunctive
@@ -123,4 +136,5 @@ This document is used to capture synonyms.
 - overview, roundup, sumup, summary
 - lack, dearth, scarcity
 - pattern, paradigm
+- dilemma, quandary
 - dichotomy
