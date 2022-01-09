@@ -8,8 +8,8 @@
 This document is used to capture synonyms.
 
 ## Verb
-- abandon, waive, relinquish, give up, forfeit, abstain, forgo
-- accept, agree, take in, receive
+- abandon, waive, relinquish, give up, forfeit, abstain, forgo, discard
+- accept, agree, take in, receive, concur
 - show, exhibit, present, demonstrate, showcase
 - support, prop up, bolster, uphold
 - appeal, attract, entice
@@ -58,6 +58,7 @@ This document is used to capture synonyms.
 - pardon, absolve
 - continue, carry on
 - remember, recollect, recall
+- serve, steward
 - gallop
 - aggravate
 
@@ -74,6 +75,7 @@ This document is used to capture synonyms.
 - easily, readily, effortlessly
 - immediately, momentarily, imminently
 - exactly, precisely, accurately, immaculately
+- literally, verbatim
 - sparely
 
 
@@ -95,7 +97,7 @@ This document is used to capture synonyms.
 - big, large, huge, giant, colossal, massive, tremendous
 - clear, lucid, legible, plain
 - satisfied, content
-- innovative, originative, imaginative
+- innovative, originative, imaginative, novel
 - boring, tedious, toneless, frivolous
 - cautious, careful, prudent, circumspective
 - luxurious, ostentatious
@@ -116,6 +118,10 @@ This document is used to capture synonyms.
 - cogent, persuasive, reasonable
 - awful, dreadful
 - dull, obtuse
+- overview, recapitulate
+- fantastic, fabulous, splendid
+- tired, overwrought, sweatful, arduous, toilsome
+- famous, celebrated,noted, distinguished, prestigious, renowned
 
 
 ## Conjunctive
@@ -137,4 +143,5 @@ This document is used to capture synonyms.
 - lack, dearth, scarcity
 - pattern, paradigm
 - dilemma, quandary
+- right, entitlement
 - dichotomy
