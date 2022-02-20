@@ -61,6 +61,7 @@ This document is used to capture synonyms.
 - serve, steward
 - gallop
 - aggravate
+- harm, endanger, jeopardize
 
 
 ## Adverb
@@ -107,7 +108,7 @@ This document is used to capture synonyms.
 - destined, bound
 - fake, fraudulent, counterfeit
 - busy, hectic
-- complicated, sophisticated, complex
+- complicated, sophisticated, complex, elaborate
 - passionate, avid, eager, zealous, enthusiastic
 - costly, expensive
 - constant, ceaseless
@@ -120,8 +121,11 @@ This document is used to capture synonyms.
 - dull, obtuse
 - overview, recapitulate
 - fantastic, fabulous, splendid
-- tired, overwrought, sweatful, arduous, toilsome
+- tired, overwrought, sweatful, arduous, toilsome, weary
 - famous, celebrated,noted, distinguished, prestigious, renowned
+- suspicious, dubious
+- clumsy, awkward
+- strange, awkward, flaky, eccentric, temperamental
 
 
 ## Conjunctive
@@ -142,6 +146,7 @@ This document is used to capture synonyms.
 - overview, roundup, sumup, summary
 - lack, dearth, scarcity
 - pattern, paradigm
-- dilemma, quandary
+- dilemma, quandary, pickle
 - right, entitlement
+- risk, peril
 - dichotomy

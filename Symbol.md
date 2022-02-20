@@ -4,6 +4,7 @@
 | --- | --- | --- |
 | ^ | caret / hat | 脱字符号 |
 | ~ | tilde | 波浪字符 |
+| ` | back tick |  |
 | ! | Exclamation |  |
 | # | hash |  |
 | & | ampersand |  |
