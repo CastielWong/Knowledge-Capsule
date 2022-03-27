@@ -48,10 +48,10 @@ This document is used to capture synonyms.
 - diverge, derail
 - guess, suppose, conjecture, assume
 - adjust, calibrate
-- deal, tackle, solve, address, handle, overcome, dispose, manage
+- deal, juggle, tackle, solve, address, handle, overcome, dispose, manage
 - suggest, advise, propose
 - easy, effortless
-- temporal, ephemeral, transient
+- temporal, ephemeral, transient, fleeting
 - polish, brush up
 - undertake, bear
 - jog, canter
@@ -59,9 +59,16 @@ This document is used to capture synonyms.
 - continue, carry on
 - remember, recollect, recall
 - serve, steward
+- harm, endanger, jeopardize
+- overturn, subvert
+- combine, merge, amalgamate
+- envy, begrudge
+- resist, inhibit, constrain, suppress
+- announce, disseminate, propagate
+- wander, saunter
+- reflect, ruminate
 - gallop
 - aggravate
-- harm, endanger, jeopardize
 
 
 ## Adverb
@@ -77,6 +84,7 @@ This document is used to capture synonyms.
 - immediately, momentarily, imminently
 - exactly, precisely, accurately, immaculately
 - literally, verbatim
+- unintentionally, inadvertently, unwittingly
 - sparely
 
 
@@ -100,7 +108,7 @@ This document is used to capture synonyms.
 - satisfied, content
 - innovative, originative, imaginative, novel
 - boring, tedious, toneless, frivolous
-- cautious, careful, prudent, circumspective
+- cautious, careful, prudent, circumspective, vigilant
 - luxurious, ostentatious
 - neat, quaint
 - serious, acute
@@ -126,6 +134,9 @@ This document is used to capture synonyms.
 - suspicious, dubious
 - clumsy, awkward
 - strange, awkward, flaky, eccentric, temperamental
+- optimistic， positive, upbeat, sanguine
+- intuitive, intuitional, intuitionistic
+- mature, full-fledged
 
 
 ## Conjunctive
@@ -149,4 +160,8 @@ This document is used to capture synonyms.
 - dilemma, quandary, pickle
 - right, entitlement
 - risk, peril
+- consistency, conformance
+- trouble, ado, hassle
+- chaos, disorder, promiscuity
+- tenacity, persistency, insistency
 - dichotomy
