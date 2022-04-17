@@ -8,7 +8,7 @@
 This document is used to capture synonyms.
 
 ## Verb
-- abandon, waive, relinquish, give up, forfeit, abstain, forgo, discard
+- abandon, waive, relinquish, renounce, forfeit, abstain, forgo, discard, give up
 - accept, agree, take in, receive, concur
 - show, exhibit, present, demonstrate, showcase
 - support, prop up, bolster, uphold
@@ -20,7 +20,7 @@ This document is used to capture synonyms.
 - complete, accomplish, achieve, finish
 - assign, allot, dispense, allocate
 - mitigate, extenuate, alleviate
-- modify, amend
+- amend, rectify, modify
 - obsolete, expire
 - intrigue, interest, fascinate, appeal attract, inspire
 - spark, ignite, stimulate, urge, catalyze, spur
@@ -51,7 +51,7 @@ This document is used to capture synonyms.
 - deal, juggle, tackle, solve, address, handle, overcome, dispose, manage
 - suggest, advise, propose
 - easy, effortless
-- temporal, ephemeral, transient, fleeting
+- temporal, ephemeral, provisional, transient, fleeting
 - polish, brush up
 - undertake, bear
 - jog, canter
@@ -63,10 +63,23 @@ This document is used to capture synonyms.
 - overturn, subvert
 - combine, merge, amalgamate
 - envy, begrudge
-- resist, inhibit, constrain, suppress
+- resist, inhibit, constrain, suppress, restrain, refrain
 - announce, disseminate, propagate
 - wander, saunter
 - reflect, ruminate
+- elicit, derive
+- prove, vouch, corroborate
+- immerse, permeate
+- beat, prevail
+- acquire, procure, obtain, attain
+- botch, flub, bungle
+- interpret, construe
+- drop by, come over, pop over
+- ignore, omit, neglect
+- complain, criticize, reproach
+- build, construct, erect
+- confirm, ascertain
+- disappear, dissipate
 - gallop
 - aggravate
 
@@ -85,6 +98,7 @@ This document is used to capture synonyms.
 - exactly, precisely, accurately, immaculately
 - literally, verbatim
 - unintentionally, inadvertently, unwittingly
+- get used to, accustomed to
 - sparely
 
 
@@ -101,7 +115,7 @@ This document is used to capture synonyms.
 - disappointed, bleak
 - naive, nascent
 - specific, particular, idiosyncratic
-- significant, salient, obvious, outstanding, prominent, protruding, pronounced, apparent
+- significant, salient, obvious, outstanding, prominent, protruding, pronounced, apparent, eminent
 - popular, prevalent, sought-after
 - big, large, huge, giant, colossal, massive, tremendous
 - clear, lucid, legible, plain
@@ -133,10 +147,14 @@ This document is used to capture synonyms.
 - famous, celebrated,noted, distinguished, prestigious, renowned
 - suspicious, dubious
 - clumsy, awkward
-- strange, awkward, flaky, eccentric, temperamental
+- strange, awkward, flaky, eccentric, temperamental, peculiar
 - optimistic， positive, upbeat, sanguine
 - intuitive, intuitional, intuitionistic
 - mature, full-fledged
+- auxiliary, ancillary
+- agile, nimble, flexible
+- squeamish, picky, nitpicked
+- irrelevant, tangential, excursive
 
 
 ## Conjunctive
@@ -164,4 +182,6 @@ This document is used to capture synonyms.
 - trouble, ado, hassle
 - chaos, disorder, promiscuity
 - tenacity, persistency, insistency
+- weakness, foible
 - dichotomy
+- acedia
