@@ -74,12 +74,17 @@ This document is used to capture synonyms.
 - acquire, procure, obtain, attain
 - botch, flub, bungle
 - interpret, construe
-- drop by, come over, pop over
+- drop by, come over, pop over, pop in
 - ignore, omit, neglect
 - complain, criticize, reproach
 - build, construct, erect
 - confirm, ascertain
 - disappear, dissipate
+- praise, compliment, acclaim
+- consist, constitute, comprise
+- hint, insinuate
+- claim, assert
+- keep, retain, store
 - gallop
 - aggravate
 
@@ -115,7 +120,7 @@ This document is used to capture synonyms.
 - disappointed, bleak
 - naive, nascent
 - specific, particular, idiosyncratic
-- significant, salient, obvious, outstanding, prominent, protruding, pronounced, apparent, eminent
+- significant, salient, obvious, outstanding, prominent, protruding, pronounced, apparent, eminent, profound
 - popular, prevalent, sought-after
 - big, large, huge, giant, colossal, massive, tremendous
 - clear, lucid, legible, plain
@@ -155,6 +160,8 @@ This document is used to capture synonyms.
 - agile, nimble, flexible
 - squeamish, picky, nitpicked
 - irrelevant, tangential, excursive
+- beneficial, conducive
+- excellent, distinguished, remarkable, eminent, prominent, preeminent, brilliant
 
 
 ## Conjunctive
@@ -183,5 +190,8 @@ This document is used to capture synonyms.
 - chaos, disorder, promiscuity
 - tenacity, persistency, insistency
 - weakness, foible
+- corner, nook
+- crack, cranny
+- shame, disgrace
 - dichotomy
 - acedia
