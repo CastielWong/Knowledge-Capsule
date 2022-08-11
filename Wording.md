@@ -4,11 +4,13 @@
 - [Adjective](#adjective)
 - [Conjunctive](#conjunctive)
 - [Noun](#noun)
+- [Proverb](#proverb)
+
 
 This document is used to capture synonyms.
 
 ## Verb
-- abandon, waive, relinquish, renounce, forfeit, abstain, forgo, discard, give up
+- abandon, waive, relinquish, renounce, forfeit, abstain, forgo, discard, give up, ditch
 - accept, agree, take in, receive, concur
 - show, exhibit, present, demonstrate, showcase
 - support, prop up, bolster, uphold
@@ -21,30 +23,29 @@ This document is used to capture synonyms.
 - assign, allot, dispense, allocate
 - mitigate, extenuate, alleviate
 - amend, rectify, modify
-- obsolete, expire
 - intrigue, interest, fascinate, appeal attract, inspire
 - spark, ignite, stimulate, urge, catalyze, spur
 - provide, furnish, offer, supply
 - drive, promote, pulse, steer
 - show up, reveal, occur
-- confuse, confound, baffle
-- retire, decommission
+- confuse, confound, baffle, obfuscate, obscure, befuddle
+- retire, decommission, deprecate, obsolete, expire
 - manage, steward
 - award, confer
 - spread, scatter, disperse, distribute, intersperse
 - interfere, intervene, disrupt, interject
-- clarify, elucidate, expound, elaborate
+- clarify, elucidate, expound, elaborate, illuminate, demystify
 - update, renovate
-- check, vet, review, scrutinize
+- check, vet, review, scrutinize, examine
 - disdain, contempt, despite
 - restore, reinstate, recover, reactivate
 - consider, think, mull, ponder
 - collect, hoard, glean, harvest
-- generate, engender
+- generate, engender, emanate
 - illustrate, exemplify
 - annoy, irritate
 - increase, add, surge
-- mix, intermingle, blend
+- mix, intermingle, blend, potpourri, hodgepodge, hotchpotch
 - diverge, derail
 - guess, suppose, conjecture, assume
 - adjust, calibrate
@@ -61,7 +62,7 @@ This document is used to capture synonyms.
 - serve, steward
 - harm, endanger, jeopardize
 - overturn, subvert
-- combine, merge, amalgamate
+- combine, merge, amalgamate, fuse, melt, coalesce
 - envy, begrudge
 - resist, inhibit, constrain, suppress, restrain, refrain
 - announce, disseminate, propagate
@@ -70,7 +71,7 @@ This document is used to capture synonyms.
 - elicit, derive
 - prove, vouch, corroborate
 - immerse, permeate
-- beat, prevail
+- beat, prevail, edge out
 - acquire, procure, obtain, attain
 - botch, flub, bungle
 - interpret, construe
@@ -84,8 +85,21 @@ This document is used to capture synonyms.
 - consist, constitute, comprise
 - hint, insinuate
 - claim, assert
-- keep, retain, store
-- gallop
+- keep, retain, store, hoard
+- dig, delve
+- fascinate, captivate, infatuate
+- peek, peep, squint
+- assault, foray, attack
+- wager, bet
+- simplify, dumb down
+- avoid, avert, shun
+- veil, cover up, gloss over
+- find out, scoop out
+- gallop, sprint
+- relieve, abate
+- remove, abolish, expunge, eliminate, eradicate, exterminate
+- pollute, contaminate
+- disinfect, sterilize
 - aggravate
 
 
@@ -120,7 +134,7 @@ This document is used to capture synonyms.
 - disappointed, bleak
 - naive, nascent
 - specific, particular, idiosyncratic
-- significant, salient, obvious, outstanding, prominent, protruding, pronounced, apparent, eminent, profound
+- significant, salient, obvious, outstanding, prominent, protruding, pronounced, apparent, eminent, profound, phenomenal
 - popular, prevalent, sought-after
 - big, large, huge, giant, colossal, massive, tremendous
 - clear, lucid, legible, plain
@@ -159,9 +173,20 @@ This document is used to capture synonyms.
 - auxiliary, ancillary
 - agile, nimble, flexible
 - squeamish, picky, nitpicked
+- relevant, pertinent
 - irrelevant, tangential, excursive
 - beneficial, conducive
-- excellent, distinguished, remarkable, eminent, prominent, preeminent, brilliant
+- excellent, distinguished, remarkable, eminent, prominent, preeminent, brilliant, fabulous, fantabulous
+- steady, sturdy
+- proficient, adept, experienced skillful, seasoned, versed
+- indifferent, offish
+- normal, mundane
+- many, various, numerous, umpteen
+- few, sporadic, scattered
+- foreign, external, extraneous
+- antique, archaic
+- opposite, conversed, diametrical
+- irresolvable, inextricable
 
 
 ## Conjunctive
@@ -193,5 +218,15 @@ This document is used to capture synonyms.
 - corner, nook
 - crack, cranny
 - shame, disgrace
-- dichotomy
+- normalization, standardization, canonicalization
+- source, origin, provenance
+- dichotomy, duality
+- illness, ailment
+- result, consequence, upshot
+- slogan, catchphrase
+- loyalty, allegiance
 - acedia
+
+
+## Proverb
+- ships in the night
