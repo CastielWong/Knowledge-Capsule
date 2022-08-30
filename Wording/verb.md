@@ -1,0 +1,103 @@
+
+- abandon, waive, relinquish, renounce, forfeit, abstain, forgo, discard, give up, ditch
+- accept, agree, take in, receive, concur
+- show, exhibit, present, demonstrate, showcase
+- support, prop up, bolster, uphold
+- appeal, attract, entice
+- execute, perform, conduct, implement, carry out
+- use, utilize, wield, apply, exert, leverage
+- pave the way, smooth the way
+- extract, distill
+- complete, accomplish, achieve, finish
+- assign, allot, dispense, allocate
+- mitigate, extenuate, alleviate
+- amend, rectify, modify, atone
+- intrigue, interest, fascinate, appeal attract, inspire
+- spark, ignite, stimulate, urge, catalyze, spur
+- provide, furnish, offer, supply
+- drive, promote, steer, lead
+- show up, reveal, occur
+- confuse, confound, baffle, obfuscate, obscure, befuddle
+- retire, decommission, deprecate, obsolete, expire
+- manage, steward
+- award, confer
+- spread, scatter, disperse, distribute, intersperse
+- interfere, intervene, disrupt, interject
+- clarify, elucidate, expound, elaborate, illuminate, demystify
+- update, renovate
+- check, vet, review, scrutinize, examine
+- disdain, contempt, despite
+- restore, reinstate, recover, reactivate
+- consider, think, mull, ponder
+- collect, hoard, glean, harvest
+- generate, engender, emanate
+- illustrate, exemplify
+- annoy, irritate
+- increase, add, surge
+- mix, intermingle, blend, potpourri, hodgepodge, hotchpotch
+- diverge, derail
+- guess, suppose, conjecture, assume, presume
+- adjust, calibrate
+- deal, juggle, tackle, solve, address, handle, overcome, dispose, manage
+- suggest, advise, propose
+- easy, effortless
+- temporal, ephemeral, provisional, transient, fleeting
+- polish, brush up
+- undertake, bear
+- jog, canter
+- pardon, absolve
+- continue, carry on
+- remember, recollect, recall
+- serve, steward
+- harm, endanger, jeopardize
+- overturn, subvert
+- combine, merge, amalgamate, fuse, melt, coalesce, conjugate
+- envy, begrudge
+- resist, inhibit, constrain, suppress, restrain, refrain
+- announce, disseminate, propagate, set forth
+- wander, saunter
+- reflect, ruminate
+- elicit, derive
+- prove, vouch, corroborate
+- immerse, permeate, saturate
+- beat, prevail, edge out
+- acquire, procure, obtain, attain
+- botch, flub, bungle
+- interpret, construe
+- drop by, come over, pop over, pop in
+- ignore, omit, neglect
+- complain, criticize, reproach
+- build, construct, erect
+- confirm, ascertain
+- disappear, dissipate
+- praise, compliment, acclaim
+- consist, constitute, comprise
+- hint, insinuate
+- claim, assert
+- keep, retain, store, hoard
+- dig, delve
+- fascinate, captivate, infatuate
+- peek, peep, squint
+- assault, foray, attack
+- wager, bet
+- simplify, dumb down
+- avoid, avert, shun
+- veil, cover up, gloss over
+- find out, scoop out
+- gallop, sprint
+- relieve, abate
+- remove, abolish, expunge, eliminate
+- pollute, contaminate, taint
+- disinfect, sterilize
+- destroy, , eradicate, exterminate, annihilate
+- relate, pertain
+- align, coincide
+- argue, dispute
+- enrich, flesh out
+- violate, infringe
+- amplify, expand, extend, enlarge
+- translate, construe, interpret, explain
+- copy, duplicate, replicate, facsimile
+- replace, substitute, supersede
+- supplement, replenish
+- aggravate

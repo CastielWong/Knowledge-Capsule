@@ -1,0 +1,75 @@
+
+- actual, real, down-to-earth, realistic, practical, pragmatic, literal
+- cutting-edge, state-of-the-art, top-notch, leading-edge
+- arcane, mysterious, cryptic
+- stimulating, intriguing
+- necessary, indispensable
+- different, disparate, varied, diverse
+- tempting, alluring, intriguing, absorbing, attractive
+- native, inherent, inborn, instinctive
+- difficult, challenging, troublesome, thorny
+- disappointed, bleak
+- naive, nascent
+- specific, particular, idiosyncratic
+- significant, salient, obvious, outstanding, prominent, protruding, pronounced, apparent, eminent, profound, phenomenal
+- popular, sought-after, prevalent, prevailing
+- big, large, huge, giant, colossal, massive, tremendous
+- clear, lucid, legible, plain
+- satisfied, content
+- innovative, originative, imaginative, novel
+- boring, tedious, toneless, frivolous
+- cautious, careful, prudent, circumspective, vigilant
+- luxurious, ostentatious
+- neat, quaint
+- serious, acute
+- important, vital, crucial, imperative
+- destined, bound
+- fake, fraudulent, counterfeit
+- busy, hectic
+- complicated, sophisticated, complex, elaborate, tangled
+- passionate, avid, eager, zealous, enthusiastic
+- costly, expensive
+- constant, ceaseless
+- prospective, promising
+- avoidable, negligible, neglectable
+- perfect, immaculate, flawless
+- useless, futile, impotent
+- cogent, persuasive, reasonable
+- awful, dreadful
+- dull, obtuse
+- overview, recapitulate
+- fantastic, fabulous, splendid
+- tired, overwrought, sweatful, arduous, toilsome, weary
+- famous, celebrated,noted, distinguished, prestigious, renowned
+- suspicious, dubious
+- clumsy, awkward
+- strange, awkward, flaky, eccentric, temperamental, peculiar
+- optimistic， positive, upbeat, sanguine
+- intuitive, intuitional, intuitionistic
+- mature, full-fledged
+- auxiliary, ancillary
+- agile, nimble, flexible
+- squeamish, picky, nitpicked
+- relevant, pertinent
+- irrelevant, tangential, excursive
+- beneficial, conducive
+- excellent, distinguished, remarkable, eminent, prominent, preeminent, brilliant, fabulous, fantabulous
+- steady, sturdy
+- proficient, adept, experienced skillful, seasoned, versed
+- indifferent, offish
+- normal, mundane
+- many, various, numerous, umpteen
+- few, sporadic, scattered
+- foreign, external, extraneous
+- antique, archaic
+- opposite, conversed, diametrical
+- irresolvable, inextricable
+- silver, argent
+- knowledgeable, informed
+- unbelievable, incredible, inconceivable
+- afraid, terrifying, intimidating
+- weak, brittle, frail
+- perpetual, continuing, extended
+- capable, competent, able
+- superficial, ostensible, exterior
+- acceptable, allowable, permissible, admissible

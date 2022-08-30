@@ -1,0 +1,17 @@
+
+- well, commendably
+- fortuitously, by accident, accidentally, unexpectedly
+- theoretically, conceptually
+- tidy, spruce, arrange, comb
+- so, hence, therefore, thereby
+- inevitably, admittedly
+- sometime, occasionally
+- moreover, furthermore, besides
+- easily, readily, effortlessly
+- immediately, momentarily, imminently
+- exactly, precisely, accurately, immaculately
+- literally, verbatim
+- unintentionally, inadvertently, unwittingly
+- get used to, accustomed to
+- very, extremely, grossly
+- sparely

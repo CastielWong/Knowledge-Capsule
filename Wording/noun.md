@@ -1,0 +1,32 @@
+
+- stipend, remuneration, allowance
+- monolith, boulder
+- diversity, multiformity
+- reputation, prestige
+- characteristic, trait, personality
+- domain, realm, area, field, territory, terrain, sphere
+- symbol, token, identifier
+- overview, roundup, sumup, summary
+- lack, dearth, scarcity
+- pattern, paradigm
+- dilemma, quandary, pickle
+- right, entitlement
+- risk, peril
+- consistency, conformance
+- trouble, ado, hassle, fault, fritz
+- chaos, disorder, promiscuity
+- tenacity, persistency, insistency
+- weakness, foible
+- corner, nook
+- crack, cranny
+- shame, disgrace
+- normalization, standardization, canonicalization
+- source, origin, provenance
+- dichotomy, duality
+- illness, ailment
+- result, consequence, upshot
+- slogan, catchphrase
+- loyalty, allegiance
+- possibility, likelihood, odds
+- advance, furtherance
+- acedia
