@@ -22,11 +22,11 @@ This document is used to capture synonyms.
 - complete, accomplish, achieve, finish
 - assign, allot, dispense, allocate
 - mitigate, extenuate, alleviate
-- amend, rectify, modify
+- amend, rectify, modify, atone
 - intrigue, interest, fascinate, appeal attract, inspire
 - spark, ignite, stimulate, urge, catalyze, spur
 - provide, furnish, offer, supply
-- drive, promote, pulse, steer
+- drive, promote, steer, lead
 - show up, reveal, occur
 - confuse, confound, baffle, obfuscate, obscure, befuddle
 - retire, decommission, deprecate, obsolete, expire
@@ -47,7 +47,7 @@ This document is used to capture synonyms.
 - increase, add, surge
 - mix, intermingle, blend, potpourri, hodgepodge, hotchpotch
 - diverge, derail
-- guess, suppose, conjecture, assume
+- guess, suppose, conjecture, assume, presume
 - adjust, calibrate
 - deal, juggle, tackle, solve, address, handle, overcome, dispose, manage
 - suggest, advise, propose
@@ -62,15 +62,15 @@ This document is used to capture synonyms.
 - serve, steward
 - harm, endanger, jeopardize
 - overturn, subvert
-- combine, merge, amalgamate, fuse, melt, coalesce
+- combine, merge, amalgamate, fuse, melt, coalesce, conjugate
 - envy, begrudge
 - resist, inhibit, constrain, suppress, restrain, refrain
-- announce, disseminate, propagate
+- announce, disseminate, propagate, set forth
 - wander, saunter
 - reflect, ruminate
 - elicit, derive
 - prove, vouch, corroborate
-- immerse, permeate
+- immerse, permeate, saturate
 - beat, prevail, edge out
 - acquire, procure, obtain, attain
 - botch, flub, bungle
@@ -97,9 +97,20 @@ This document is used to capture synonyms.
 - find out, scoop out
 - gallop, sprint
 - relieve, abate
-- remove, abolish, expunge, eliminate, eradicate, exterminate
-- pollute, contaminate
+- remove, abolish, expunge, eliminate
+- pollute, contaminate, taint
 - disinfect, sterilize
+- destroy, , eradicate, exterminate, annihilate
+- relate, pertain
+- align, coincide
+- argue, dispute
+- enrich, flesh out
+- violate, infringe
+- amplify, expand, extend, enlarge
+- translate, construe, interpret, explain
+- copy, duplicate, replicate, facsimile
+- replace, substitute, supersede
+- supplement, replenish
 - aggravate
 
 
@@ -107,7 +118,7 @@ This document is used to capture synonyms.
 - well, commendably
 - fortuitously, by accident, accidentally, unexpectedly
 - theoretically, conceptually
-- arrange, comb
+- tidy, spruce, arrange, comb
 - so, hence, therefore, thereby
 - inevitably, admittedly
 - sometime, occasionally
@@ -118,13 +129,14 @@ This document is used to capture synonyms.
 - literally, verbatim
 - unintentionally, inadvertently, unwittingly
 - get used to, accustomed to
+- very, extremely, grossly
 - sparely
 
 
 ## Adjective
 - actual, real, down-to-earth, realistic, practical, pragmatic, literal
 - cutting-edge, state-of-the-art, top-notch, leading-edge
-- arcane, mysterious
+- arcane, mysterious, cryptic
 - stimulating, intriguing
 - necessary, indispensable
 - different, disparate, varied, diverse
@@ -135,7 +147,7 @@ This document is used to capture synonyms.
 - naive, nascent
 - specific, particular, idiosyncratic
 - significant, salient, obvious, outstanding, prominent, protruding, pronounced, apparent, eminent, profound, phenomenal
-- popular, prevalent, sought-after
+- popular, sought-after, prevalent, prevailing
 - big, large, huge, giant, colossal, massive, tremendous
 - clear, lucid, legible, plain
 - satisfied, content
@@ -149,13 +161,13 @@ This document is used to capture synonyms.
 - destined, bound
 - fake, fraudulent, counterfeit
 - busy, hectic
-- complicated, sophisticated, complex, elaborate
+- complicated, sophisticated, complex, elaborate, tangled
 - passionate, avid, eager, zealous, enthusiastic
 - costly, expensive
 - constant, ceaseless
 - prospective, promising
 - avoidable, negligible, neglectable
-- perfect, immaculate
+- perfect, immaculate, flawless
 - useless, futile, impotent
 - cogent, persuasive, reasonable
 - awful, dreadful
@@ -187,6 +199,15 @@ This document is used to capture synonyms.
 - antique, archaic
 - opposite, conversed, diametrical
 - irresolvable, inextricable
+- silver, argent
+- knowledgeable, informed
+- unbelievable, incredible, inconceivable
+- afraid, terrifying, intimidating
+- weak, brittle, frail
+- perpetual, continuing, extended
+- capable, competent, able
+- superficial, ostensible, exterior
+- acceptable, allowable, permissible, admissible
 
 
 ## Conjunctive
@@ -211,7 +232,7 @@ This document is used to capture synonyms.
 - right, entitlement
 - risk, peril
 - consistency, conformance
-- trouble, ado, hassle
+- trouble, ado, hassle, fault, fritz
 - chaos, disorder, promiscuity
 - tenacity, persistency, insistency
 - weakness, foible
@@ -225,6 +246,8 @@ This document is used to capture synonyms.
 - result, consequence, upshot
 - slogan, catchphrase
 - loyalty, allegiance
+- possibility, likelihood, odds
+- advance, furtherance
 - acedia
 
 
