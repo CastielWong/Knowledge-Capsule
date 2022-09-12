@@ -1,5 +1,5 @@
 
-- abandon, waive, relinquish, renounce, forfeit, abstain, forgo, discard, give up, ditch
+- abandon, waive, relinquish, renounce, forfeit, abstain, forgo, give up, ditch
 - accept, agree, take in, receive, concur
 - show, exhibit, present, demonstrate, showcase
 - support, prop up, bolster, uphold
@@ -19,11 +19,11 @@
 - show up, reveal, occur
 - confuse, confound, baffle, obfuscate, obscure, befuddle
 - retire, decommission, deprecate, obsolete, expire
-- manage, steward
+- manage, steward, housekeep
 - award, confer
 - spread, scatter, disperse, distribute, intersperse
 - interfere, intervene, disrupt, interject
-- clarify, elucidate, expound, elaborate, illuminate, demystify
+- clarify, articulate, elucidate, expound, elaborate, illuminate, demystify
 - update, renovate
 - check, vet, review, scrutinize, examine
 - disdain, contempt, despite
@@ -36,13 +36,13 @@
 - increase, add, surge
 - mix, intermingle, blend, potpourri, hodgepodge, hotchpotch
 - diverge, derail
-- guess, suppose, conjecture, assume, presume
+- guess, suppose, conjecture, assume, presume, speculate
 - adjust, calibrate
-- deal, juggle, tackle, solve, address, handle, overcome, dispose, manage
+- deal, juggle, tackle, solve, address, handle, overcome, dispose
 - suggest, advise, propose
 - easy, effortless
 - temporal, ephemeral, provisional, transient, fleeting
-- polish, brush up
+- improve, polish, revamp, brush up
 - undertake, bear
 - jog, canter
 - pardon, absolve
@@ -53,7 +53,7 @@
 - overturn, subvert
 - combine, merge, amalgamate, fuse, melt, coalesce, conjugate
 - envy, begrudge
-- resist, inhibit, constrain, suppress, restrain, refrain
+- restrict, inhibit, constrain, suppress, restrain, refrain, confine
 - announce, disseminate, propagate, set forth
 - wander, saunter
 - reflect, ruminate
@@ -65,7 +65,7 @@
 - botch, flub, bungle
 - interpret, construe
 - drop by, come over, pop over, pop in
-- ignore, omit, neglect
+- ignore, omit, neglect, disregard
 - complain, criticize, reproach
 - build, construct, erect
 - confirm, ascertain
@@ -100,4 +100,8 @@
 - copy, duplicate, replicate, facsimile
 - replace, substitute, supersede
 - supplement, replenish
+- dump, discard, tip
+- conform, accord
+- simulate, imitate, emulate
+- specify, stipulate
 - aggravate

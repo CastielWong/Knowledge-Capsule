@@ -29,4 +29,7 @@
 - loyalty, allegiance
 - possibility, likelihood, odds
 - advance, furtherance
-- acedia
+- obstacle, hurdle, barrier
+- acedia, sloth
+- pioneer, trailblazer
+- hobby, gusto

@@ -13,7 +13,7 @@
 - specific, particular, idiosyncratic
 - significant, salient, obvious, outstanding, prominent, protruding, pronounced, apparent, eminent, profound, phenomenal
 - popular, sought-after, prevalent, prevailing
-- big, large, huge, giant, colossal, massive, tremendous
+- big, large, huge, giant, colossal, massive, tremendous, mammoth
 - clear, lucid, legible, plain
 - satisfied, content
 - innovative, originative, imaginative, novel
@@ -43,7 +43,7 @@
 - famous, celebrated,noted, distinguished, prestigious, renowned
 - suspicious, dubious
 - clumsy, awkward
-- strange, awkward, flaky, eccentric, temperamental, peculiar
+- strange, awkward, flaky, eccentric, peculiar, bizarre, eery, temperamental
 - optimistic， positive, upbeat, sanguine
 - intuitive, intuitional, intuitionistic
 - mature, full-fledged
@@ -58,7 +58,7 @@
 - proficient, adept, experienced skillful, seasoned, versed
 - indifferent, offish
 - normal, mundane
-- many, various, numerous, umpteen
+- many, various, numerous, umpteen, multifarious
 - few, sporadic, scattered
 - foreign, external, extraneous
 - antique, archaic
@@ -68,8 +68,16 @@
 - knowledgeable, informed
 - unbelievable, incredible, inconceivable
 - afraid, terrifying, intimidating
-- weak, brittle, frail
+- weak, brittle, frail, wispy
 - perpetual, continuing, extended
 - capable, competent, able
 - superficial, ostensible, exterior
 - acceptable, allowable, permissible, admissible
+- impressive, dazzling
+- subtle, imperceptible
+- artificial, synthetic, factitious
+- obscure, fuzzy
+- redundant, surplus
+- rough, coarse, cursory
+- temporary, transient, provisional, ephemeral
+- rude, reckless, imprudent, rash, impertinent
