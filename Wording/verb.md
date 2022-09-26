@@ -11,11 +11,11 @@
 - complete, accomplish, achieve, finish
 - assign, allot, dispense, allocate
 - mitigate, extenuate, alleviate
-- amend, rectify, modify, atone
+- change, amend, rectify, modify, atone, swing
 - intrigue, interest, fascinate, appeal attract, inspire
-- spark, ignite, stimulate, urge, catalyze, spur
+- spark, ignite, stimulate, urge, catalyze, spur, whet
 - provide, furnish, offer, supply
-- drive, promote, steer, lead
+- drive, promote, steer, lead, pose
 - show up, reveal, occur
 - confuse, confound, baffle, obfuscate, obscure, befuddle
 - retire, decommission, deprecate, obsolete, expire
@@ -26,7 +26,7 @@
 - clarify, articulate, elucidate, expound, elaborate, illuminate, demystify
 - update, renovate
 - check, vet, review, scrutinize, examine
-- disdain, contempt, despite
+- disdain, contempt, despite, scorn
 - restore, reinstate, recover, reactivate
 - consider, think, mull, ponder
 - collect, hoard, glean, harvest
@@ -34,11 +34,11 @@
 - illustrate, exemplify
 - annoy, irritate
 - increase, add, surge
-- mix, intermingle, blend, potpourri, hodgepodge, hotchpotch
+- mix, intermingle, blend
 - diverge, derail
-- guess, suppose, conjecture, assume, presume, speculate
+- guess, suppose, conjecture, assume, presume, speculate, postulate
 - adjust, calibrate
-- deal, juggle, tackle, solve, address, handle, overcome, dispose
+- solve, resolve, settle, address, deal, juggle, tackle, handle, overcome, dispose, wrestle, disentangle
 - suggest, advise, propose
 - easy, effortless
 - temporal, ephemeral, provisional, transient, fleeting
@@ -53,13 +53,14 @@
 - overturn, subvert
 - combine, merge, amalgamate, fuse, melt, coalesce, conjugate
 - envy, begrudge
-- restrict, inhibit, constrain, suppress, restrain, refrain, confine
+- restrict, inhibit, constrain, suppress, restrain, refrain, confine, hedge
 - announce, disseminate, propagate, set forth
 - wander, saunter
 - reflect, ruminate
 - elicit, derive
 - prove, vouch, corroborate
 - immerse, permeate, saturate
+- overwhelm, deluge
 - beat, prevail, edge out
 - acquire, procure, obtain, attain
 - botch, flub, bungle
@@ -73,7 +74,7 @@
 - praise, compliment, acclaim
 - consist, constitute, comprise
 - hint, insinuate
-- claim, assert
+- claim, assert, proclaim
 - keep, retain, store, hoard
 - dig, delve
 - fascinate, captivate, infatuate
@@ -104,4 +105,9 @@
 - conform, accord
 - simulate, imitate, emulate
 - specify, stipulate
+- satisfy, cater
+- realize, discern, comprehend
+- explode, implode, burst
+- cancel, rescind
+- disagree, dissent
 - aggravate

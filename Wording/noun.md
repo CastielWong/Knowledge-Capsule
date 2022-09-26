@@ -14,9 +14,9 @@
 - risk, peril
 - consistency, conformance
 - trouble, ado, hassle, fault, fritz
-- chaos, disorder, promiscuity
+- chaos, disorder, promiscuity, tangle
 - tenacity, persistency, insistency
-- weakness, foible
+- weakness, foible, downside
 - corner, nook
 - crack, cranny
 - shame, disgrace
@@ -29,7 +29,15 @@
 - loyalty, allegiance
 - possibility, likelihood, odds
 - advance, furtherance
-- obstacle, hurdle, barrier
+- obstacle, hurdle, barrier, hinderance
 - acedia, sloth
 - pioneer, trailblazer
 - hobby, gusto
+- hodgepodge, potpourri, hotchpotch
+- element, ingredient
+- component, constituent
+- difference, discrepancy
+- insight, clairvoyance
+- responsibility, accountability
+- disaster, debacle
+- remain, residual

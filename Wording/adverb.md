@@ -13,5 +13,6 @@
 - literally, verbatim
 - unintentionally, inadvertently, unwittingly
 - get used to, accustomed to
-- very, extremely, grossly
-- sparely
+- very, extremely, grossly, sorely
+- sparely, stingily
+- everywhere, high and low

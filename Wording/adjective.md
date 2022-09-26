@@ -11,20 +11,20 @@
 - disappointed, bleak
 - naive, nascent
 - specific, particular, idiosyncratic
-- significant, salient, obvious, outstanding, prominent, protruding, pronounced, apparent, eminent, profound, phenomenal
+- significant, salient, obvious, outstanding, prominent, protruding, pronounced, apparent, eminent, profound, phenomenal, ostensive, clear-cut, telling
 - popular, sought-after, prevalent, prevailing
 - big, large, huge, giant, colossal, massive, tremendous, mammoth
 - clear, lucid, legible, plain
 - satisfied, content
 - innovative, originative, imaginative, novel
 - boring, tedious, toneless, frivolous
-- cautious, careful, prudent, circumspective, vigilant
+- cautious, careful, prudent, circumspective, vigilant, advertent
 - luxurious, ostentatious
 - neat, quaint
 - serious, acute
 - important, vital, crucial, imperative
 - destined, bound
-- fake, fraudulent, counterfeit
+- fake, fraudulent, counterfeit, spurious
 - busy, hectic
 - complicated, sophisticated, complex, elaborate, tangled
 - passionate, avid, eager, zealous, enthusiastic
@@ -55,7 +55,7 @@
 - beneficial, conducive
 - excellent, distinguished, remarkable, eminent, prominent, preeminent, brilliant, fabulous, fantabulous
 - steady, sturdy
-- proficient, adept, experienced skillful, seasoned, versed
+- proficient, adept, experienced skillful, seasoned, versed, virtuoso
 - indifferent, offish
 - normal, mundane
 - many, various, numerous, umpteen, multifarious
@@ -81,3 +81,7 @@
 - rough, coarse, cursory
 - temporary, transient, provisional, ephemeral
 - rude, reckless, imprudent, rash, impertinent
+- dangerous, precarious
+- enough, adequate
+- sequential, consecutive, contiguous
+- contradictory, averse
