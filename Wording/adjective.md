@@ -4,9 +4,9 @@
 - arcane, mysterious, cryptic
 - stimulating, intriguing
 - necessary, indispensable
-- different, disparate, varied, diverse
+- different, disparate, varied, diverse, nother
 - tempting, alluring, intriguing, absorbing, attractive
-- native, inherent, inborn, instinctive
+- native, inherent, inborn, instinctive, innate
 - difficult, challenging, troublesome, thorny
 - disappointed, bleak
 - naive, nascent
@@ -39,7 +39,7 @@
 - dull, obtuse
 - overview, recapitulate
 - fantastic, fabulous, splendid
-- tired, overwrought, sweatful, arduous, toilsome, weary
+- tired, overwrought, sweatful, arduous, toilsome, weary, onerous
 - famous, celebrated,noted, distinguished, prestigious, renowned
 - suspicious, dubious
 - clumsy, awkward
@@ -52,7 +52,7 @@
 - squeamish, picky, nitpicked
 - relevant, pertinent
 - irrelevant, tangential, excursive
-- beneficial, conducive
+- beneficial, conducive, tonic
 - excellent, distinguished, remarkable, eminent, prominent, preeminent, brilliant, fabulous, fantabulous
 - steady, sturdy
 - proficient, adept, experienced skillful, seasoned, versed, virtuoso
@@ -76,7 +76,7 @@
 - impressive, dazzling
 - subtle, imperceptible
 - artificial, synthetic, factitious
-- obscure, fuzzy
+- obscure, fuzzy, uncertain
 - redundant, surplus
 - rough, coarse, cursory
 - temporary, transient, provisional, ephemeral
@@ -85,3 +85,19 @@
 - enough, adequate
 - sequential, consecutive, contiguous
 - contradictory, averse
+- basic, fundamental, rudimentary
+- imaginary, notional
+- quick, rapid, swift, fleeting
+- surrounding, ambient
+- coward, dastard, poltroon
+- poor, meager
+- customized, tailored, bespoke
+- general, ordinary, mediocre, commonplace, garden-variety
+- exhaustive, depleted, worn-out
+- unwieldy, fiddly
+- remaining, remnant, residual, leftover
+- smooth, frictionless
+- ridiculous, preposterous
+- structural, tectonic
+- innocent, innocuous, harmless
+- rational, logical

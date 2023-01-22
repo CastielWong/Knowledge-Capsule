@@ -27,7 +27,7 @@
 - update, renovate
 - check, vet, review, scrutinize, examine
 - disdain, contempt, despite, scorn
-- restore, reinstate, recover, reactivate
+- restore, reinstate, recover, reactivate, rejuvenate, recuperate, rehabilitate
 - consider, think, mull, ponder
 - collect, hoard, glean, harvest
 - generate, engender, emanate
@@ -55,7 +55,7 @@
 - envy, begrudge
 - restrict, inhibit, constrain, suppress, restrain, refrain, confine, hedge
 - announce, disseminate, propagate, set forth
-- wander, saunter
+- wander, saunter, loaf
 - reflect, ruminate
 - elicit, derive
 - prove, vouch, corroborate
@@ -90,7 +90,7 @@
 - remove, abolish, expunge, eliminate
 - pollute, contaminate, taint
 - disinfect, sterilize
-- destroy, , eradicate, exterminate, annihilate
+- destroy, eradicate, exterminate, annihilate, neutralize, snuff
 - relate, pertain
 - align, coincide
 - argue, dispute
@@ -110,4 +110,14 @@
 - explode, implode, burst
 - cancel, rescind
 - disagree, dissent
+- degrade, relegate
+- decompose, disintegrate, disassemble, dismantle
+- glance, skim
+- tear, rend
+- twine, intertwine, entwine, enwind
+- clutter, cram
+- conquer, vanquish
+- block, derail
+- repeat, reprise
+- summary, recapitulate
 - aggravate

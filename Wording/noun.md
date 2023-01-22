@@ -31,7 +31,7 @@
 - advance, furtherance
 - obstacle, hurdle, barrier, hinderance
 - acedia, sloth
-- pioneer, trailblazer
+- pioneer, trailblazer, harbinger
 - hobby, gusto
 - hodgepodge, potpourri, hotchpotch
 - element, ingredient
@@ -41,3 +41,6 @@
 - responsibility, accountability
 - disaster, debacle
 - remain, residual
+- volatility, levity
+- violation, transgression
+- pirate, corsair
