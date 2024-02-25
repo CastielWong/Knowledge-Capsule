@@ -6,7 +6,7 @@
 - Create an outline
 
 ## Essential
-- Layout: 
+- Layout:
   - balanced (positive & negative)
   - grid (rule of thirds)
 - Font
@@ -39,7 +39,7 @@
 - Image / Graphic
   - type
     - JPEG: best used for photos
-    - PNG: 
+    - PNG:
       - great for graphics & some photos
       - fully transparency support
     - GIF:
@@ -71,7 +71,7 @@
     - Graphics
   - Solid Fills Always Work
     - allows for complete focus on content
-    - content can shine 
+    - content can shine
     - less is more
   - Dark Background
     - Good for large venues

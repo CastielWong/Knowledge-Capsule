@@ -31,7 +31,7 @@
 - costly, expensive
 - constant, ceaseless
 - prospective, promising
-- avoidable, negligible, neglectable, 
+- avoidable, negligible, neglectable
 - perfect, immaculate, flawless
 - useless, futile, impotent
 - cogent, persuasive, reasonable
