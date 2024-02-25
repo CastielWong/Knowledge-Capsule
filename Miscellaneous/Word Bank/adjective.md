@@ -6,22 +6,22 @@
 - necessary, indispensable
 - different, disparate, varied, diverse, nother
 - tempting, alluring, intriguing, absorbing, attractive
-- native, inherent, inborn, instinctive, innate
+- native, inherent, inborn, instinctive, innate, vernacular
 - difficult, challenging, troublesome, thorny
 - disappointed, bleak
 - naive, nascent
 - specific, particular, idiosyncratic
 - significant, salient, obvious, outstanding, prominent, protruding, pronounced, apparent, eminent, profound, phenomenal, ostensive, clear-cut, telling
 - popular, sought-after, prevalent, prevailing
-- big, large, huge, giant, colossal, massive, tremendous, mammoth
+- big, large, huge, giant, colossal, massive, tremendous, mammoth, enormous, ginormous, whopping
 - clear, lucid, legible, plain
 - satisfied, content
 - innovative, originative, imaginative, novel
 - boring, tedious, toneless, frivolous
 - cautious, careful, prudent, circumspective, vigilant, advertent
-- luxurious, ostentatious
+- luxurious, ostentatious, plush
 - neat, quaint
-- serious, acute
+- serious, acute, dire, abysmal
 - important, vital, crucial, imperative
 - destined, bound
 - fake, fraudulent, counterfeit, spurious
@@ -31,7 +31,7 @@
 - costly, expensive
 - constant, ceaseless
 - prospective, promising
-- avoidable, negligible, neglectable
+- avoidable, negligible, neglectable, 
 - perfect, immaculate, flawless
 - useless, futile, impotent
 - cogent, persuasive, reasonable
@@ -43,14 +43,14 @@
 - famous, celebrated,noted, distinguished, prestigious, renowned
 - suspicious, dubious
 - clumsy, awkward
-- strange, awkward, flaky, eccentric, peculiar, bizarre, eery, temperamental
+- strange, awkward, flaky, eccentric, peculiar, bizarre, eery, temperamental, queer
 - optimistic， positive, upbeat, sanguine
 - intuitive, intuitional, intuitionistic
 - mature, full-fledged
 - auxiliary, ancillary
 - agile, nimble, flexible
 - squeamish, picky, nitpicked
-- relevant, pertinent
+- relevant, pertinent, coherent
 - irrelevant, tangential, excursive
 - beneficial, conducive, tonic
 - excellent, distinguished, remarkable, eminent, prominent, preeminent, brilliant, fabulous, fantabulous
@@ -62,14 +62,14 @@
 - few, sporadic, scattered
 - foreign, external, extraneous
 - antique, archaic
-- opposite, conversed, diametrical
+- opposite, conversed, diametrical, adverse
 - irresolvable, inextricable
 - silver, argent
 - knowledgeable, informed
 - unbelievable, incredible, inconceivable
 - afraid, terrifying, intimidating
-- weak, brittle, frail, wispy
-- perpetual, continuing, extended
+- weak, brittle, frail, wispy, feeble
+- perpetual, continuing, extended, persistent
 - capable, competent, able
 - superficial, ostensible, exterior
 - acceptable, allowable, permissible, admissible
@@ -79,14 +79,14 @@
 - obscure, fuzzy, uncertain
 - redundant, surplus
 - rough, coarse, cursory
-- temporary, transient, provisional, ephemeral
+- temporary, transient, provisional, ephemeral, makeshift
 - rude, reckless, imprudent, rash, impertinent
 - dangerous, precarious
 - enough, adequate
 - sequential, consecutive, contiguous
 - contradictory, averse
 - basic, fundamental, rudimentary
-- imaginary, notional
+- imaginary, notional, whimsical
 - quick, rapid, swift, fleeting
 - surrounding, ambient
 - coward, dastard, poltroon
@@ -96,8 +96,17 @@
 - exhaustive, depleted, worn-out
 - unwieldy, fiddly
 - remaining, remnant, residual, leftover
-- smooth, frictionless
+- smooth, frictionless, slick
 - ridiculous, preposterous
 - structural, tectonic
 - innocent, innocuous, harmless
 - rational, logical
+- nervous, unnerving
+- simple, easy, mundane
+- harmful, crippling
+- unnecessary, superfluous
+- shocking, astonished, astounding
+- change, alter, shift, switch, segue
+- nonsense, moot
+- volatile, fickle
+- intense, vehement, fierce, violent, drastic, furious

@@ -2,7 +2,7 @@
 - abandon, waive, relinquish, renounce, forfeit, abstain, forgo, give up, ditch
 - accept, agree, take in, receive, concur
 - show, exhibit, present, demonstrate, showcase
-- support, prop up, bolster, uphold
+- support, prop up, bolster, uphold, crutch
 - appeal, attract, entice
 - execute, perform, conduct, implement, carry out
 - use, utilize, wield, apply, exert, leverage
@@ -10,10 +10,11 @@
 - extract, distill
 - complete, accomplish, achieve, finish
 - assign, allot, dispense, allocate
-- mitigate, extenuate, alleviate
+- mitigate, relieve, abate, extenuate, alleviate, soothe, allay
 - change, amend, rectify, modify, atone, swing
-- intrigue, interest, fascinate, appeal attract, inspire
-- spark, ignite, stimulate, urge, catalyze, spur, whet
+- intrigue, interest, fascinate, appeal attract, inspire, pique
+- energize, encourage, invigorate
+- spark, ignite, stimulate, urge, catalyze, spur, whet, propel, impel
 - provide, furnish, offer, supply
 - drive, promote, steer, lead, pose
 - show up, reveal, occur
@@ -24,7 +25,7 @@
 - spread, scatter, disperse, distribute, intersperse
 - interfere, intervene, disrupt, interject
 - clarify, articulate, elucidate, expound, elaborate, illuminate, demystify
-- update, renovate
+- update, renovate, revamp
 - check, vet, review, scrutinize, examine
 - disdain, contempt, despite, scorn
 - restore, reinstate, recover, reactivate, rejuvenate, recuperate, rehabilitate
@@ -51,9 +52,9 @@
 - serve, steward
 - harm, endanger, jeopardize
 - overturn, subvert
-- combine, merge, amalgamate, fuse, melt, coalesce, conjugate
+- combine, merge, amalgamate, fuse, melt, coalesce, conjugate, brigade
 - envy, begrudge
-- restrict, inhibit, constrain, suppress, restrain, refrain, confine, hedge
+- restrict, inhibit, constrain, suppress, restrain, refrain, confine, hedge, stifle, subdue
 - announce, disseminate, propagate, set forth
 - wander, saunter, loaf
 - reflect, ruminate
@@ -66,7 +67,7 @@
 - botch, flub, bungle
 - interpret, construe
 - drop by, come over, pop over, pop in
-- ignore, omit, neglect, disregard
+- ignore, omit, neglect, disregard, tune out
 - complain, criticize, reproach
 - build, construct, erect
 - confirm, ascertain
@@ -82,31 +83,30 @@
 - assault, foray, attack
 - wager, bet
 - simplify, dumb down
-- avoid, avert, shun
+- avoid, avert, shun, evade, elude
 - veil, cover up, gloss over
 - find out, scoop out
 - gallop, sprint
-- relieve, abate
-- remove, abolish, expunge, eliminate
+- remove, abolish, expunge, eliminate, squelch
 - pollute, contaminate, taint
 - disinfect, sterilize
-- destroy, eradicate, exterminate, annihilate, neutralize, snuff
+- destroy, eradicate, exterminate, annihilate, neutralize, snuff, demolish
 - relate, pertain
 - align, coincide
 - argue, dispute
 - enrich, flesh out
 - violate, infringe
-- amplify, expand, extend, enlarge
+- amplify, expand, extend, enlarge, bloat, dilate
 - translate, construe, interpret, explain
 - copy, duplicate, replicate, facsimile
-- replace, substitute, supersede
+- replace, substitute, supersede, supplant
 - supplement, replenish
 - dump, discard, tip
 - conform, accord
 - simulate, imitate, emulate
 - specify, stipulate
 - satisfy, cater
-- realize, discern, comprehend
+- realize, discern, comprehend, apprehend
 - explode, implode, burst
 - cancel, rescind
 - disagree, dissent
@@ -120,4 +120,19 @@
 - block, derail
 - repeat, reprise
 - summary, recapitulate
+- tempt, lure, allure, induce
+- object, oppose, gainsaid, thwart
+- prepare, gird
+- enhance, strengthen, underpin, redound
+- draft, scribble, scratch
+- emphasize, accentuate
+- postpone, suspend, respite
+- clean, tidy, prune, declutter
+- make, manufacture, fabricate
+- spin, rotate, revolve, swivel
+- revenge, retaliate
+- comfort, appease, conciliate
+- imagine, fantasize
+- echo, repercuss
+- interrupt, interject
 - aggravate

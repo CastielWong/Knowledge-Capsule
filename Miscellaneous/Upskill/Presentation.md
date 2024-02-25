@@ -1,0 +1,98 @@
+
+## Preparation
+- Know your audience
+- Develop ideas
+- Moodboards
+- Create an outline
+
+## Essential
+- Layout: 
+  - balanced (positive & negative)
+  - grid (rule of thirds)
+- Font
+  - typeface
+  - size
+  - weight
+  - bold
+  - italic
+- Bullet
+  - do not overuse in presentations
+  - limit the amount of text on the slides
+  - use no more than 5 short points per slide, 3 is better
+  - keep short, animate and fade
+- Word
+- Color
+  - primary: cannot be created by mixing
+  - secondary: achieved by mixing two primary
+  - tertiary: created by mixing a primary with a secondary
+  - shade: created by adding black
+  - tint: created by adding white
+  - tool:
+    - https://color.adobe.com/create/color-wheel
+    - https://coolors.co/
+    - https://mycolor.space/
+- Contrast
+  - size
+  - shape
+  - typeface
+  - color
+- Image / Graphic
+  - type
+    - JPEG: best used for photos
+    - PNG: 
+      - great for graphics & some photos
+      - fully transparency support
+    - GIF:
+      - great for graphics
+      - transparency support
+      - animated variant
+    - SVG:
+      - most commonly for graphics
+      - infinitely scaleable (vectors)
+      - transparency
+      - animation possible
+  - zoom
+  - focus
+  - tool:
+    - https://pixabay.com/
+    - https://unsplash.com/
+    - https://www.pexels.com/
+    - https://commons.wikimedia.org/wiki/Main_Page
+- Video
+  - help audience understand
+  - use autoplay
+  - play video locally
+  - apply full screen
+  - keep clips short
+- Background
+  - element:
+    - Text
+    - Charts
+    - Graphics
+  - Solid Fills Always Work
+    - allows for complete focus on content
+    - content can shine 
+    - less is more
+  - Dark Background
+    - Good for large venues
+    - Content can really shine
+    - Formal
+  - Light Background
+    - Good for small venues
+    - Feels bright
+    - Less formal
+  - Gradients Can Be Good
+    - Create a vignette effect
+    - Directs the eyes
+    - Can be playful
+    - Use caution
+    - Use a gradient generator
+    - Mimic lighting effects
+  - Subtle Patterns Add Texture
+    - Can lift a background
+    - Texture can add richness
+    - Must be used with care and caution
+
+
+## Reference:
+- Designing A Presentation: https://www.linkedin.com/learning/designing-a-presentation-14176816

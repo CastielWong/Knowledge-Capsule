@@ -29,14 +29,14 @@
 - loyalty, allegiance
 - possibility, likelihood, odds
 - advance, furtherance
-- obstacle, hurdle, barrier, hinderance
+- obstacle, hurdle, barrier, hinderance, snag, setback
 - acedia, sloth
 - pioneer, trailblazer, harbinger
 - hobby, gusto
 - hodgepodge, potpourri, hotchpotch
 - element, ingredient
 - component, constituent
-- difference, discrepancy
+- difference, discrepancy, divergence, bifurcation
 - insight, clairvoyance
 - responsibility, accountability
 - disaster, debacle
@@ -44,3 +44,10 @@
 - volatility, levity
 - violation, transgression
 - pirate, corsair
+- nuance, subtlety
+- trick, shenanigan
+- suspension, moratorium
+- popularity, in the groove
+- composure, aplomb
+- terminology, jargon, lingo
+

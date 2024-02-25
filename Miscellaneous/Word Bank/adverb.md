@@ -15,6 +15,6 @@
 - get used to, accustomed to
 - very, extremely, grossly, sorely
 - sparely, stingily
-- completely, absolutely, unreservedly
+- completely, absolutely, unreservedly, resoundingly
 - quickly, swiftly, apace
 - everywhere, high and low
