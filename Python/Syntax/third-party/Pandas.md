@@ -81,15 +81,17 @@ df.sort_values(by=["{column}"], ascending=False, inplace=True)
 # get records in specified index
 df.iloc[2]["{col2}"]
 df.iloc[[0, 3]]
-df.iloc[[ : 9]]
+df.iloc[ : 9]
 
 # get the max value of a column
 max_value = pd.Series(df["{column}"]).max()
 subset = df.loc[df["{column}"] == max_value]
 
 # retrieve candidates under condition
-# count the occurrence of each group to get the Series
+# count the occurrence of each group to get the SeriesGroupBy
 series = df.groupby("{column}")["{column}"].count()
+# count the occurrence of each group to get the DataFrameGroupBy
+series = df.groupby("{column}")[["{col1}", "{col2}"]].count()
 # set the occurrence to be `NaN` if it's not larger than 1 by applying `where`
 candidates = series.where("{column}" > 1)
 # filter unqualified ones by negating those `NaN`s
@@ -112,7 +114,7 @@ df.loc[(df["{col1}"] == 1) & (df["{col2}"] != 0), "{new_col}"] = {value}
 df.loc[~df["{column}"].isin(["val_1", "val_2"])]
 
 # count the occurrence of each group to get the DataFrame, group would be the index
-subset = df.groupby("{column1}")[["{column2}", "{column3}"]].count()
+subset = df.groupby(["{column1}"])[["{column2}", "{column3}"]].count()
 
 # print full DataFrame
 print(df.to_string())
@@ -168,8 +170,8 @@ df_concat = pd.concat(objs=series, axis=1)
 
 # use `join`
 df_join = pd.DataFrame(index=[1, 3, 4, 5])
-for i in series:
-    df_join = df_join.join(other=i, how="left")
+for a_series in series:
+    df_join = df_join.join(other=a_series, how="left")
 
 # use `merge`
 df_merge = pd.DataFrame(index=[1, 3, 4, 5])
@@ -182,8 +184,8 @@ for i in series:
 
 ### Drop
 ```py
-# drop row
-df.drop("{row}", axis=0, inplace=True)
+# drop index (row)
+df.drop("{index}", axis=0, inplace=True)
 # drop column
 df.drop("{col}", axis=1, inplace=True)
 ```
@@ -192,7 +194,6 @@ df.drop("{col}", axis=1, inplace=True)
 ```py
 # one to one mapping
 df["{col}"] = df["{col}"].map({"{value1}": 1, "{value2}": 2})
-
 ```
 
 ### Pivot
@@ -208,14 +209,13 @@ df = pd.DataFrame(data={
 df_melted = df.melt(
     id_vars=["Day"],
     value_vars=["Berry", "Coconut"],
-    var_name=["Fruit"], # can be MultiIndex
+    var_name="Fruit", # can be MultiIndex
     value_name="Price",
 )
 
 df_pivot = df_melted.pivot(index="Day", columns=["Fruit"])
 # remove the unneeded MultiIndex by resetting
 df_pivot = df_pivot["Price"].reset_index()
-
 ```
 
 
@@ -246,7 +246,7 @@ df.isnull().sum()
 # check the first several rows with null value
 df[df.isnull().values.any(axis=1)].head()
 
-df.dropna(subset=["{clumn}"], inplace=True)
+df.dropna(subset=["{column}"], inplace=True)
 ```
 
 
