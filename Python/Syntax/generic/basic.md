@@ -18,14 +18,12 @@
 - [Function](#function)
   - [Higher Order](#higher-order)
   - [Type Hinting](#type-hinting)
-- [Argument](#argument)
-  - [Variadic](#variadic)
-  - [Dynamic](#dynamic)
 - [Copy](#copy)
 - [Exception](#exception)
 - [Reference](#reference)
 
 
+-------------------------------------------------------------------------------
 ## Printing
 
 ### Status Bar
@@ -63,7 +61,7 @@ for i in range(1, 21):
     sys.stdout.write(f"[{'=' * i:<20}] {5 * i}%")
     # sys.stdout.write(f"print out {i:<5}")
 
-    # sys.stdout.flush()  # would be necessary on some system
+    # sys.stdout.flush()  # would be necessary on some systems
     time.sleep(.2)
 ```
 
@@ -77,7 +75,7 @@ print(Back.BLUE, end="")
 print(Style.DIM, end="")
 
 print(f"Text in red")
-print(f"Background in greed")
+print(f"Background in blue")
 print(f"Style in dim")
 
 print(Style.RESET_ALL, end="")
@@ -85,7 +83,7 @@ print("Back to normal")
 ```
 
 
-
+-------------------------------------------------------------------------------
 ## Literals
 Literals are notations for constant values of some built-in types.
 
@@ -95,9 +93,12 @@ There are different types of string literals in Python:
 - b-string: byte
 - u-string: unicode, a legacy literal
 
-The u-string would normally used in Python2, whose strings are ASCII by default. Using u-string would allow non-ASCII characters for the string in Python.
+The u-string would normally used in Python2, whose strings are ASCII by default.
+Using u-string would allow non-ASCII characters for the string in Python.
 
-Note that it's possible to combine different string literals together, like 'rf', 'rb' etc. However, the 'f' may be combined with 'r', but not with 'b' or 'u', therefore raw formatted strings are possible, but formatted bytes literals are not.
+Note that it's possible to combine different string literals together, like 'rf', 'rb' etc.
+However, the 'f' may be combined with 'r', but not with 'b' or 'u', therefore raw formatted
+strings are possible, but formatted bytes literals are not.
 
 ### f-string
 There are multiple ways to use f-string:
@@ -193,6 +194,7 @@ print(checking[22:22+16].decode("utf-8"))               # "value_123456789a"
 ```
 
 
+-------------------------------------------------------------------------------
 ## Operator
 
 ### Basics
@@ -247,6 +249,7 @@ with open(__file__, "r") as fr:
 ```
 
 
+-------------------------------------------------------------------------------
 ## String Manipulation
 ### Basics
 ```py
@@ -322,7 +325,7 @@ if (n := len(s)) > 10:
 ```
 
 
-
+-------------------------------------------------------------------------------
 ## Function
 
 ### Higher Order
@@ -390,111 +393,20 @@ print(Book.hardcover.__annotations__)
 ```
 
 
-## Argument
-Ingest arguments from the command via `sys`:
-```py
-import sys
-
-# {file}.py {arg1} {arg2}
-print(sys.argv)
-```
-
-### Variadic
-There are two different types of arguments in variadic functions: Positional and Keyword.
-- `*`
-    - usually set as `args` for conventional
-    - it's used to pack elements if it's in the function signature
-    - it's used for unpacking if it's inside the function
-    - it must come after all required positional arguments
-- `**`
-    - usually set as `kwargs` for conventional
-    - it's used to pack keyword pairs if it's in the function signature
-    - it's used for unpacking dictionary if it's inside the function
-    - it must come after positional and other keyword arguments if any
-
-```py
-# destruct elements and collect
-head, *middle, tail = [1, 2, 3, 4, 5]
-print(middle)   # [2, 3, 4]
-
-list_1 = [1, 2, 3]
-list_2 = [4, 5]
-merged_list = [*list_1, *list_2]
-print(merged_list)  # [1, 2, 3, 4, 5]
-
-dict_1 = {"a": 1, "b": 2, "c": 3}
-dict_2 = {"d": 4, "e": 5}
-merged_dic = {**dict_1, **dict_2}
-print(merged_dic)
-
-# Variadic Positional Arguments: *args
-def var_arg_pos(a, b, c, *args):
-    # `args` is a tuple of all trailing argument values, naming as `args` is just conventional
-    print(f"{a}, {b}, {c}, {args}")
-
-# 1, 2, 3, (4, 5, 6)
-var_arg_pos(1, 2, 3, 4, 5, 6)
-
-# Variadic Keyword Arguments: **kwargs
-def var_arg_kw(a, *args, b=8, **kwargs):
-    # `kwargs` is a dict of all trailing keyword arguments and values, naming as `kwargs` is just conventional
-    print(f"{a}, {args}, {b}, {kwargs}")
-
-# 1, (2, 3), 6, {"key1": "a", "key2": "c"}
-var_arg_kw(1, 2, 3, b=6, key1="a", key2="c")
-```
-
-### Dynamic
-Extract arguments out from a function in dynamic ways:
-```py
-import inspect
-
-def demo_method(arg0, arg1=1, arg2=2):
-    # inside the function: both of arguments and values can be retrieved
-
-    # via locals()
-    # default: {"arg1": 1, "arg2": 2}
-    print(locals())
-
-    # via inspect
-    frame = inspect.currentframe()
-    args, _, _, local = inspect.getargvalues(frame)
-    # default: {"arg1": 1, "arg2": 2}
-    print({key: local[key] for key in args})
-
-    pass
-
-demo_method(3, 4)       # {"arg0": 3, "arg1": 4, "arg2": 2}
-print("------------------")
-
-# outside the function: only arguments are available
-
-# via inspect
-# (arg0, arg1=1, arg2=2), note that values are default only
-print(inspect.signature(demo_method))
-# ["arg0", "arg1", "arg2"]
-print(inspect.getfullargspec(demo_method).args)
-
-# via bulitin __code__
-code_obj = demo_method.__code__
-# ("arg0", "arg1", "arg2")
-print(code_obj.co_varnames[:code_obj.co_argcount])
-```
-
-
-
+-------------------------------------------------------------------------------
 ## Copy
 ```py
 # note that string and tuple have no copy() method
-a = [1, 2, 3]  # [1, 2, 3]
-b = a.copy()  # [1, 2, 3]
-a[1] = 5  # a: [1, 5, 3], b: [1, 2, 3]
+a = [1, 2, 3]   # [1, 2, 3]
+b = a.copy()    # [1, 2, 3]
+a[1] = 5        # a: [1, 5, 3], b: [1, 2, 3]
 
 print(f"{a = }\n{b = }")
 print(f"a - {id(a)}\nb - {id(b)}")
 ```
 
 
+-------------------------------------------------------------------------------
 ## Exception
 The syntax for Python's exception handling is shown below:
 ```py
@@ -552,7 +464,9 @@ print(
 ```
 
 
+-------------------------------------------------------------------------------
 ## Reference
 - String and Bytes literals: https://docs.python.org/3.6/reference/lexical_analysis.html#string-and-bytes-literals
 - Format Specification Mini-Language: https://docs.python.org/3/library/string.html#format-specification-mini-language
 - Python Type Checking: https://realpython.com/python-type-checking/#annotations
+- What Are Python Asterisk and Slash Special Parameters For: https://realpython.com/python-asterisk-and-slash-special-parameters/

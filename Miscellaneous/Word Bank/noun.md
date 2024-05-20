@@ -50,3 +50,5 @@
 - popularity, in the groove
 - composure, aplomb
 - terminology, jargon, lingo
+- boundary, confine, scope
+- accuracy, fidelity, precision

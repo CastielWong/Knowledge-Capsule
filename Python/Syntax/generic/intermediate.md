@@ -1,6 +1,10 @@
 
 - [Administration](#administration)
 - [Memory](#memory)
+- [Argument](#argument)
+  - [Variadic](#variadic)
+  - [Special Parameter](#special-parameter)
+  - [Dynamic](#dynamic)
 - [Comprehension](#comprehension)
 - [Generator](#generator)
 - [Import](#import)
@@ -11,6 +15,8 @@
 - [Profiling](#profiling)
 - [Reference](#reference)
 
+
+-------------------------------------------------------------------------------
 ## Administration
 
 ```py
@@ -28,6 +34,7 @@ print(version("{module}"))
 ```
 
 
+-------------------------------------------------------------------------------
 ## Memory
 Check memory with built-in library:
 ```py
@@ -48,6 +55,128 @@ print(process.memory_info())
 ```
 
 
+-------------------------------------------------------------------------------
+## Argument
+Ingest arguments from the command via `sys`:
+```py
+import sys
+
+# {file}.py {arg1} {arg2}
+print(sys.argv)
+```
+
+### Variadic
+There are 2 different types of arguments in variadic functions:
+Positional and Keyword.
+- `*`
+    - usually set as `args` for conventional, e.g. `*args`
+    - it's used to pack __elements__ if it's in the function signature
+    - it's used for unpacking list/tuple if it's inside the function
+    - it must come after all required positional arguments
+- `**`
+    - usually set as `kwargs` for conventional, e.g. `**kwargs`
+    - it's used to pack __keyword pairs__ if it's in the function signature
+    - it's used for unpacking dictionary if it's inside the function
+    - it must come after positional and other keyword arguments if any
+
+```py
+# destruct elements then collect
+head, *middle, tail = [1, 2, 3, 4, 5]
+print(middle)   # [2, 3, 4]
+
+list_1 = [1, 2, 3]
+list_2 = [4, 5]
+merged_list = [*list_1, *list_2]
+print(merged_list)  # [1, 2, 3, 4, 5]
+
+dict_1 = {"a": 1, "b": 2, "c": 3}
+dict_2 = {"d": 4, "e": 5}
+merged_dic = {**dict_1, **dict_2}
+print(merged_dic)
+
+# Variadic Positional Arguments: *args
+def var_arg_pos(a, b, c, *args):
+    # `args` is a tuple of all trailing argument values, naming as `args` is just conventional
+    print(f"{a}, {b}, {c}, {args}")
+
+# 1, 2, 3, (4, 5, 6)
+var_arg_pos(1, 2, 3, 4, 5, 6)
+
+# Variadic Keyword Arguments: **kwargs
+def var_arg_kw(a, *args, b=8, **kwargs):
+    # `kwargs` is a dict of all trailing keyword arguments and values, naming as `kwargs` is just conventional
+    print(f"{a}, {args}, {b}, {kwargs}")
+
+# 1, (2, 3), 6, {"key1": "a", "key2": "c"}
+var_arg_kw(1, 2, 3, b=6, key1="a", key2="c")
+```
+
+### Special Parameter
+The bare asterisk `*` and slash `/` are special parameters in function headers,
+the `*` and `/` control how to pass values to functions, for which are used to
+enforce the argument passing.
+
+For instance,
+```py
+def strange_func(a, b, /, c, *, d, e):
+    pass
+
+# valid
+strange_func(1, 2, 3, d=4, e=5)
+strange_func(1, 2, c=3, d=4, e=5)
+
+# invalid
+strange_func(1, 2, 3, 4, 5)
+strange_func(a=1, 2, 3, d=4, e=5)
+strange_func(1, 2, 3, 4, e=5)
+```
+
+| Left side | Divider | Right side |
+| --- | --- | --- |
+| Positional arguments only | / | Positional or Keyword arguments |
+| Positional or Keyword arguments | * | Keyword arguments only |
+
+Note that `/` must be in front of `*`  when both are applied in the function.
+
+### Dynamic
+Extract arguments out from a function in dynamic ways:
+```py
+import inspect
+
+def demo_method(arg0, arg1=1, arg2=2):
+    # inside the function: both of arguments and values can be retrieved
+
+    # via locals()
+    # default: {"arg1": 1, "arg2": 2}
+    print(locals())
+
+    # via inspect
+    frame = inspect.currentframe()
+    args, _, _, local = inspect.getargvalues(frame)
+    # default: {"arg1": 1, "arg2": 2}
+    print({key: local[key] for key in args})
+
+    pass
+
+demo_method(3, 4)       # {"arg0": 3, "arg1": 4, "arg2": 2}
+print("------------------")
+
+# outside the function: only arguments are available
+
+# via inspect
+# (arg0, arg1=1, arg2=2), note that values are default only
+print(inspect.signature(demo_method))
+# ["arg0", "arg1", "arg2"]
+print(inspect.getfullargspec(demo_method).args)
+
+# via bulitin __code__
+code_obj = demo_method.__code__
+# ("arg0", "arg1", "arg2")
+print(code_obj.co_varnames[:code_obj.co_argcount])
+```
+
+
+-------------------------------------------------------------------------------
 ## Comprehension
 There are three kinds of comprehensions available: List, Set and Dictionary.
 
@@ -72,8 +201,12 @@ print(comp_dict)    # {1: 1, -9: 81, 10: 100, 3: 9, -5: 25}
 ```
 
 
+-------------------------------------------------------------------------------
 ## Generator
-Generator functions are a special kind of function that return a laze iterator. For instance, when open a file, a generator would loop through each line then yields each row, other than read all lines and return as a whole.
+Generator functions are a special kind of function that return a laze iterator.
+
+For instance, when a file is opened, a generator would loop through each line
+then yields each row, other than read all lines and return as a whole.
 ```py
 # generator function
 def csv_reader(file_name):
@@ -87,7 +220,8 @@ csv_gen = (row for row in open(file_name))
 When the `yield` statement is hit, the program suspends function execution and returns the yielded value to the caller.
 In contrast, return stops function execution completely.
 When a function is suspended, the state of that function is saved.
-This includes any variable bindings local to the generator, the instruction pointer, the internal stack, and any exception handling.
+This includes any variable bindings local to the generator, the instruction pointer,
+the internal stack, and any exception handling.
 
 `next()` is callable for generator object:
 ```py
@@ -108,8 +242,11 @@ print(nums_generator)   # <generator object ...>
 ```
 
 
+-------------------------------------------------------------------------------
 ## Import
-Since the checking path for import differs, files in different modules may not be able to see others. Reset `sys.path` is an approach to solve such problem. For the project structure like:
+Since the checking path for import differs, files in different modules may not be able to see others.
+Reset `sys.path` is an approach to solve such problem.
+For the project structure like:
 - project
   - package_a
     - module_a.py
@@ -138,6 +275,7 @@ module_a = importlib.import_module("package.module_a")
 ```
 
 
+-------------------------------------------------------------------------------
 ## Log
 ```py
 import logging
@@ -150,6 +288,7 @@ logger.setLevel(logging.INFO)
 ```
 
 
+-------------------------------------------------------------------------------
 ## Concatenation
 ```py
 a = ["a", "b"]
@@ -169,6 +308,7 @@ for element_tuple in itertools.product(*lists):
 ```
 
 
+-------------------------------------------------------------------------------
 ## Sorting
 Sort by value in Dictionary:
 ```py
@@ -187,7 +327,7 @@ print(mapping_sorted)
 ```
 
 
-
+-------------------------------------------------------------------------------
 ## Miscellaneous
 ```py
 # Conversion between chr and int
@@ -265,6 +405,7 @@ print(s[1:5])
 ```
 
 
+-------------------------------------------------------------------------------
 ## Profiling
 Below is a sample to profile different approaches to check out the performance difference:
 ```py
@@ -298,6 +439,7 @@ print(timeit.timeit(get_prices_with_loop, number=100))
 ```
 
 
+-------------------------------------------------------------------------------
 ## Reference
 - When to Use a List Comprehension in Python: https://realpython.com/list-comprehension-python/
 - How to Use Generators and yield in Python: https://realpython.com/introduction-to-python-generators/

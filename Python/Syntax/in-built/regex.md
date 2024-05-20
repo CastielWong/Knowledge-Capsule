@@ -1,10 +1,9 @@
 
-- [Flag](#flag)
 - [Grouping](#grouping)
   - [Non-Capturing](#non-capturing)
   - [Assertion](#assertion)
   - [Comment](#comment)
-  - [Flag](#flag-1)
+  - [Flag](#flag)
 - [Compile](#compile)
 - [Match](#match)
   - [Greedy](#greedy)
@@ -17,17 +16,21 @@
 - [Reference](#reference)
 
 
-`re.match()` is identical to `re.search()`, except that `re.search()` returns a match if <regex> matches anywhere in the <string>, whereas `re.match()` returns a match only if <regex> matches at the beginning of <string>.
-With `re.match()`, matches are essentially always anchored at the beginning of the string, no mater there is a caret `^` or not.
+`re.match()` is identical to `re.search()`, except that `re.search()` returns a match
+if _regex_ matches anywhere in the _string_, whereas `re.match()` returns a match
+only if _regex_ matches at the beginning of _string_.
 
-`re.findall()`, if <regex> contains a capturing group, then the return list contains only contents of the group, not the entire match.
+With `re.match()`, matches are essentially always anchored at the beginning of the
+string, no mater there is a caret `^` or not.
 
-
-## Flag
+`re.findall()`, if _regex_ contains a capturing group, then the return list contains
+only contents of the group, not the entire match.
 
 
 ## Grouping
-There are two types of grouping, one is "Numbered Group", while the other is "Named Group", which has prefix `?P<{name}>` before the regex pattern. It's the best practice to apply symbolic name to the group, e.g. `(?P<{name}>xxx)`.
+There are two types of grouping, one is "Numbered Group", while the other is
+"Named Group", which has prefix `?P<{name}>` before the regex pattern.
+It's the best practice to apply symbolic name to the group, e.g. `(?P<{name}>xxx)`.
 
 To reduce duplication, the same group can be reused via either `\{n}` or `(?P={name})`.
 
@@ -52,7 +55,9 @@ m.groups()
 ```
 
 ### Assertion
-> __Lookahead__ and __Lookbehind__ assertions determine the success or failure of a regex match in Python based on what is just behind (to the left) or ahead (to the right) of the parser’s current position in the search string.
+> __Lookahead__ and __Lookbehind__ assertions determine the success or failure of
+> a regex match in Python based on what is just behind (to the left) or ahead
+> (to the right) of the parser’s current position in the search string.
 
 | Assertion | positive | negative |
 | --- | --- | --- |
@@ -61,43 +66,43 @@ m.groups()
 
 
 ```py
-line = "foobar"
+line = "barbaz"
 
 # without assertion
-m = re.search("foo([a-z])(?P<check>.)", line)
-print(m)            # <re.Match object; span=(0, 5), match='fooba'>
+m = re.search("bar([a-z])(?P<check>.)", line)
+print(m)            # <re.Match object; span=(0, 5), match='barba'>
 print(m["check"])   # a
 
 # positive lookahead
-m = re.search("foo(?=[a-z])(?P<check>.)", line)
-print(m)            # <re.Match object; span=(0, 4), match='foob'>
+m = re.search("bar(?=[a-z])(?P<check>.)", line)
+print(m)            # <re.Match object; span=(0, 4), match='barb'>
 print(m["check"])   # b
 
 # negative lookahead
-m = re.search("foo(?![a-z])(?P<check>.)", line)
+m = re.search("bar(?![a-z])(?P<check>.)", line)
 print(m)            # None
 
-m = re.search("foo(?![1-9])(?P<check>.)", line)
-print(m)            # <re.Match object; span=(0, 4), match='foob'>
+m = re.search("bar(?![1-9])(?P<check>.)", line)
+print(m)            # <re.Match object; span=(0, 4), match='barb'>
 print(m["check"])   # b
 
 # without assertion
-m = re.search("(?P<check>.)([a-z])bar", line)
-print(m)            # <re.Match object; span=(1, 6), match='oobar'>
+m = re.search("(?P<check>.)([a-z])baz", line)
+print(m)            # <re.Match object; span=(1, 6), match='arbaz'>
 print(m["check"])   # a
 
 # positive lookbehind
-m = re.search("(?P<check>.)(?<=[a-z])bar", line)
-print(m)            # <re.Match object; span=(2, 6), match='obar'>
-print(m["check"])   # o
+m = re.search("(?P<check>.)(?<=[a-z])baz", line)
+print(m)            # <re.Match object; span=(2, 6), match='rbaz'>
+print(m["check"])   # r
 
 # negative lookahead
-m = re.search("(?P<check>.)(?<![a-z])bar", line)
+m = re.search("(?P<check>.)(?<![a-z])baz", line)
 print(m)            # None
 
-m = re.search("(?P<check>.)(?<![1-9])bar", line)
-print(m)            # <re.Match object; span=(2, 6), match='obar'>
-print(m["check"])   # o
+m = re.search("(?P<check>.)(?<![1-9])baz", line)
+print(m)            # <re.Match object; span=(2, 6), match='rbaz'>
+print(m["check"])   # r
 ```
 
 ### Comment
@@ -130,7 +135,8 @@ print(m)    # None
 ## Compile
 Advantages of precompiling:
 - separate out the regex definition from its uses, which enhances modularity
-- more efficient to compile once ahead of time than recompile each time, though minimal difference in practice due to applied cache
+- more efficient to compile once ahead of time than recompile each time,
+  though minimal difference in practice due to applied cache
 - improve readability and structure of code
 
 ```py
@@ -181,7 +187,8 @@ print(re.match(pat_non_greedy, string).group("alpha"))  # something_
 ```
 
 ### Conditional
-A Conditional Match matches against one of two specified regexes depends on the condition.
+A Conditional Match matches against one of two specified regexes depends on
+the condition.
 
 Syntax for conditional match:
 - numbered group: `(?({n})<yes-regex>|<no-regex>)`

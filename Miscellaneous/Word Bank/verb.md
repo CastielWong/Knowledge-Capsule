@@ -14,7 +14,7 @@
 - change, amend, rectify, modify, atone, swing
 - intrigue, interest, fascinate, appeal attract, inspire, pique
 - energize, encourage, invigorate
-- spark, ignite, stimulate, urge, catalyze, spur, whet, propel, impel
+- spark, ignite, stimulate, urge, catalyze, spur, whet, propel, impel, actuate
 - provide, furnish, offer, supply
 - drive, promote, steer, lead, pose
 - show up, reveal, occur
@@ -127,7 +127,7 @@
 - draft, scribble, scratch
 - emphasize, accentuate
 - postpone, suspend, respite
-- clean, tidy, prune, declutter
+- clean, tidy, prune, spruce, declutter
 - make, manufacture, fabricate
 - spin, rotate, revolve, swivel
 - revenge, retaliate
@@ -136,3 +136,5 @@
 - echo, repercuss
 - interrupt, interject
 - aggravate
+- cheat, deceive, bilk
+- craft, manipulate, finesse

@@ -2,6 +2,10 @@
 - [Inspection Paradox](#inspection-paradox)
 - [Simpson's Paradox](#simpsons-paradox)
   - [Quintessence](#quintessence)
+- [Anscombe's Quartet](#anscombes-quartet)
+  - [Dataset](#dataset)
+  - [Statistics](#statistics)
+  - [Graph](#graph)
 - [Reference](#reference)
 
 
@@ -53,6 +57,48 @@ However, when we let the gender group consistently equal and check __Arithmetic 
 
 The paradox here happens at the gender difference, for which such drug has different effects between genders. It harms male more than female. In that case, so long as there is more male than female in control group, it's likely the __Weighted Average__ would look better.
 
+
+-------------------------------------------------------------------------------
+## Anscombe's Quartet
+Anscombe's Quartet comprises 4 datasets that have nearly identical simple
+descriptive statistics, yet have very different distributions and appear very
+different when graphed.
+Each dataset consists of eleven (x, y) points.
+They were constructed in 1973 by the statistician Francis Anscombe to demonstrate
+both the importance of graphing data when analyzing it, and the effect of outliers
+and other influential observations on statistical properties.
+He described the article as being intended to counter the impression among
+statisticians that "numerical calculations are exact, but graphs are rough"
+
+### Dataset
+| Dataset I | Dataset II | Dataset III | Dataset IV |
+| --- | --- | --- | --- |
+| x | y | x | y | x | y | x | y |
+| 10.0 | 8.04 | 10.0 | 9.14 | 10.0 | 7.46 | 8.0 | 6.58 |
+| 8.0 | 6.95 | 8.0 | 8.14 | 8.0 | 6.77 | 8.0 | 5.76 |
+| 13.0 | 7.58 | 13.0 | 8.74 | 13.0 | 12.74 | 8.0 | 7.71 |
+| 9.0 | 8.81 | 9.0 | 8.77 | 9.0 | 7.11 | 8.0 | 8.84 |
+| 11.0 | 8.33 | 11.0 | 9.26 | 11.0 | 7.81 | 8.0 | 8.47 |
+| 14.0 | 9.96 | 14.0 | 8.10 | 14.0 | 8.84 | 8.0 | 7.04 |
+| 6.0 | 7.24 | 6.0 | 6.13 | 6.0 | 6.08 | 8.0 | 5.25 |
+| 4.0 | 4.26 | 4.0 | 3.10 | 4.0 | 5.39 | 19.0 | 12.50 |
+| 12.0 | 10.84 | 12.0 | 9.13 | 12.0 | 8.15 | 8.0 | 5.56 |
+| 7.0 | 4.82 | 7.0 | 7.26 | 7.0 | 6.42 | 8.0 | 7.91 |
+| 5.0 | 5.68 | 5.0 | 4.74 | 5.0 | 5.73 | 8.0 | 6.89 |
+
+### Statistics
+| Property | Value | Accuracy |
+| --- | --- | --- |
+| Mean of x | 9 | exact |
+| Sample variance of x | 11 | exact |
+| Mean of y | 7.50 | to 2 decimal places |
+| Sample variance of y | 4.125 | ±0.003 |
+| Correlation between x and y | 0.816 | to 3 decimal places |
+| Linear regression line | y = 3.00 + 0.500x | to 2 and 3 decimal places, respectively |
+| Coefficient of determination of the linear regression | 0.67 | to 2 decimal places |
+
+### Graph
+![Anscombe's Quartet.png](<picture/Anscombe's Quartet.png>)
 
 -------------------------------------------------------------------------------
 ## Reference

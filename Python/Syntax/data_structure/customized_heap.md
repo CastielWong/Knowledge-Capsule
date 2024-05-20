@@ -6,11 +6,14 @@
 Generally, there are two ways to have customized heap based on the scenarios.
 One is to place the sorted key in the front, the other is to use `__lt__`.
 The first way is fitted in almost any case, while the second is basically for class.
-Moreover, it's preferred to apply `__lt__` since it offers more flexibility in comparing string, the first approach can't implement MaxHeap for strings.
+
+Moreover, it's preferred to apply `__lt__` since it offers more flexibility in
+comparing string, the first approach can't implement MaxHeap for strings.
 
 
 ## General
-The general way to customize a heap is by placing the sorting elements in front, then put all needed elements into the tuple behind.
+The general way to customize a heap is by placing the sorting elements in front,
+then put all needed elements into the tuple behind.
 ```py
 from heapq import heappush, heappop
 
@@ -27,7 +30,8 @@ while heap:
 
 
 ## Comparator
-Other than the general way, encapsulate elements into a class, then applying the comparator like `__lt__` and `__gt__` is another good approach.
+Other than the general way, encapsulate elements into a class, then applying the
+comparator like `__lt__` and `__gt__` is another good approach.
 ```py
 from heapq import heappush, heappop
 

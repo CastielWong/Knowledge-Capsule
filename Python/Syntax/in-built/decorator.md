@@ -71,7 +71,9 @@ import functools
 def advanced_decorator(_func=None, *pos, msg: str = "DEFAULT"):
     """Set up an advanced decorator.
 
-    If `_func` and `*` are not provided, then make sure the decorator is called with `()` even default value is provided for each parameter. Otherwise, such decorator would not work as expected.
+    If `_func` and `*` are not provided, then make sure the decorator is called with
+    `()` even default value is provided for each parameter.
+    Otherwise, such decorator would not work as expected.
     """
 
     def inner_decorator(func):

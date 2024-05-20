@@ -64,7 +64,11 @@ result = spark.sql("SELECT  * FROM  {table}")
 
 ## Formatting
 ```py
-from pyspark.sql.functions import format_number, dayofmonth, hour, dayofyear, month, year, weekofyear, date_format
+from pyspark.sql.functions import (
+    format_number, dayofmonth,
+    hour, dayofyear, month,
+    year, weekofyear, date_format,
+)
 
 df.select(dayofmonth(df['{date}']))
 df.select(hour(df['{date}']))

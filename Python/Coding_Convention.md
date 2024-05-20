@@ -24,7 +24,7 @@ This documentation is to suggest/recommend the good coding style in Python.
 | --- | --- |
 | Indentation | 4 spaces, no tab |
 | Blank Lines | 2 for top-level definitions, like between import statements and the first class/function definition |
-| Blank Lines | 1 between method defintions |
+| Blank Lines | 1 between method definitions |
 | Blank Lines | 1 when it improves code readability |
 | Type Hinting | Apply Type Hinting whenever defining a new function |
 | Purely Functional | In case unexpected side effect, a function with return value(s) should not update any data structure inside |
@@ -209,16 +209,11 @@ The System Testing is supposed to be involved with components/systems outside of
 
 
 ## Reference
-- Code Review Developer Guide: https://google.github.io/eng-practices/review/
-- Naming Convetion: https://en.wikipedia.org/wiki/Naming_convention_(programming)
+- Naming Convention: https://en.wikipedia.org/wiki/Naming_convention_(programming)
 - The Meaning of Underscores: https://dbader.org/blog/meaning-of-underscores-in-python
-- Self-Documenting Code: https://multi-programming.com/blog/self-documenting-code
 - Functional Programming HOWTO: https://docs.python.org/3/howto/functional.html#introduction
 - Defining Main Functions in Python: https://realpython.com/python-main-function/#summary-of-python-main-function-best-practices
-- How to Write a Git Commit Message: https://cbea.ms/git-commit/
 - Google Python Style Guide: https://google.github.io/styleguide/pyguide.html#313-imports-formatting
 - Python Code Quality - Tools & Best Practices: https://realpython.com/python-code-quality/
 - The Big Ol' List of Rules: https://www.flake8rules.com/
-- How to Write a Git Commit Message: https://cbea.ms/git-commit/
-- Semantic Versioning: Why You Should Be Using it: https://www.sitepoint.com/semantic-versioning-why-you-should-using/
 - Main in Python: https://realpython.com/if-name-main-python/
