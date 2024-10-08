@@ -8,7 +8,6 @@ This documentation is to suggest/recommend the good coding style in Python.
 - [Main Function](#main-function)
 - [Type Hinting](#type-hinting)
 - [Docstring](#docstring)
-- [SemVer](#semver)
 - [Practice](#practice)
   - [Docker](#docker)
   - [Pre-Commit](#pre-commit)
@@ -17,6 +16,17 @@ This documentation is to suggest/recommend the good coding style in Python.
     - [Integration](#integration)
     - [System](#system)
 - [Reference](#reference)
+
+
+
+SemVer, which refers to __Semantic Versioning__, is the phrase describe how to version the system.
+
+SemVer is a 3-component system in the format of "x.y.z" where:
+- "x" stands for a __major__ version
+- "y" stands for a __minor__ version
+- "z" stands for a __patch__
+
+Note that it should be considered as development phase when the version is before __1.0.0__.
 
 
 ## General
@@ -29,19 +39,18 @@ This documentation is to suggest/recommend the good coding style in Python.
 | Type Hinting | Apply Type Hinting whenever defining a new function |
 | Purely Functional | In case unexpected side effect, a function with return value(s) should not update any data structure inside |
 
-
 ## Naming Convention
-| Type | Pattern | Example |
-| --- | --- | --- |
-| Package | Snake Case | package_a |
-| Module | Snake Case | module_a |
-| Class | Pascal Case | DemoClass |
-| Function | Snake Case | demo_function() |
-| Constant | Macro Case | GLOBAL_CONSTANT |
-| Variable | Snake Case | class_var |
-| Parameter | Snake Case | function_param |
+| Type      | Pattern     | Example         |
+|-----------|-------------|-----------------|
+| Package   | Snake Case  | package_a       |
+| Module    | Snake Case  | module_a        |
+| Class     | Pascal Case | DemoClass       |
+| Function  | Snake Case  | demo_function() |
+| Constant  | Macro Case  | GLOBAL_CONSTANT |
+| Variable  | Snake Case  | class_var       |
+| Parameter | Snake Case  | function_param  |
 
-Note that even though Python doesn't support private element like normal OOP language like JAVA, it's highly recommended to add a leading "_" to any private element (function/variable) for clarification.
+Note that even though Python doesn't support private element like common OOP language as JAVA, it's highly recommended to add a leading "_" to any private element (function/variable) for clarification.
 
 
 ## Header
@@ -54,10 +63,10 @@ It's a good practice to put clarified header at the top of each python file. For
 
 
 ## Importing
-There are three levels imports: in-built, third-party, customized. For better readability, it's suggested to have the import statements to follow order as the example:
+There are three levels imports: inbuilt, third-party, customized. For better readability, it's suggested to have the import statements to follow order as the example:
 
 ```py
-import {in-built}
+import {inbuilt}
 
 import {third-party}
 
@@ -67,9 +76,9 @@ import {customized}
 And there are three kinds of import statements, it's suggested to import them like:
 
 ```py
-import {package}
-import {package} as {pac}
 from {package} import {module}
+import {package_a}
+import {package_b} as {pac}
 ```
 
 Import statements under the same style are ordered alphabetically for sure.
@@ -87,13 +96,16 @@ There are four key best practices about `main()` in Python:
 It improves readability to have function annotation clarified as [PEP 484](https://www.python.org/dev/peps/pep-0484/) indicated. Below is examples for common use cases:
 
 ```py
+from typing import Dict, List, Union
+
+
 def demo_main() -> None:
     pass
 
-def demo_func_a(arg1: str, arg2: dict) -> list:
+def demo_func_a(arg1: str, arg2: Dict) -> List:
     pass
 
-def demo_func_b(arg: [list, dict]) -> int:
+def demo_func_b(arg: Union[List, Dict]) -> int:
     pass
 ```
 
@@ -116,16 +128,6 @@ def demo_function(arg1: int, arg2: float) -> [str, int]:
     pass
 ```
 
-
-## SemVer
-SemVer, which refers to __Semantic Versioning__, is the phrase describe how to version the system.
-
-SemVer is a 3-component system in the format of "x.y.z" where:
-- "x" stands for a __major__ version
-- "y" stands for a __minor__ version
-- "z" stands for a __patch__
-
-Note that it should be considered as development phase when the version is before __1.0.0__.
 
 ## Practice
 ### Docker

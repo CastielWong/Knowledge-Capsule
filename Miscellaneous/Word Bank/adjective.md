@@ -11,7 +11,8 @@
 - disappointed, bleak
 - naive, nascent
 - specific, particular, idiosyncratic
-- significant, salient, obvious, outstanding, prominent, protruding, pronounced, apparent, eminent, profound, phenomenal, ostensive, clear-cut, telling
+- significant, salient, outstanding, prominent, protruding, eminent, profound, phenomenal, telling
+- obvious, apparent, pronounced, clear-cut, ostensive, palpable
 - popular, sought-after, prevalent, prevailing
 - big, large, huge, giant, colossal, massive, tremendous, mammoth, enormous, ginormous, whopping
 - clear, lucid, legible, plain
