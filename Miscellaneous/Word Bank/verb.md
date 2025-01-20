@@ -138,3 +138,4 @@
 - aggravate
 - cheat, deceive, bilk
 - craft, manipulate, finesse
+- harden, solidify, consolidate, underpin

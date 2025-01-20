@@ -48,9 +48,11 @@ y |   40  41  42  43
 |                    | Predicted Positive  | Predicted Negative  |                 |
 
 - Sensitivity (recall) = TP / (TP + FN)
-- Specificity = TN / (TN + FP)
+- Specificity / TNR (True Negative Rate) = TN / (TN + FP)
 - Precision = TP / (TP + FP)
 - Accuracy = (TP + TN) / (TP + FN + FP + TN)
+- Other
+  - FPR (False Positive Rate) = FP / (TN + FP)
 
 
 ### Case

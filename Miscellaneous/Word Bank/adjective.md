@@ -67,7 +67,7 @@
 - irresolvable, inextricable
 - silver, argent
 - knowledgeable, informed
-- unbelievable, incredible, inconceivable
+- unbelievable, incredible, inconceivable, inscrutable
 - afraid, terrifying, intimidating
 - weak, brittle, frail, wispy, feeble
 - perpetual, continuing, extended, persistent
