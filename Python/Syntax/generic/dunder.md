@@ -11,6 +11,7 @@ from functools import total_ordering
 
 @total_ordering
 class Account:
+    # __slot__ = []
 
     def __init__(self, owner, amount=0):
         self.owner = owner

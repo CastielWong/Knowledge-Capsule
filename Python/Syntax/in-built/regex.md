@@ -33,7 +33,6 @@ There are two types of grouping, one is "Numbered Group", while the other is
 It's the best practice to apply symbolic name to the group, e.g. `(?P<{name}>xxx)`.
 
 To reduce duplication, the same group can be reused via either `\{n}` or `(?P={name})`.
-
 ```py
 line = "abc,abc"
 
@@ -47,11 +46,10 @@ print(m_name["word"])       # abc
 ```
 
 ### Non-Capturing
-
 ```py
 # use a non-capturing group
 m = re.search("(\w+),(?:\w+),(\w+)", "foo,qux,baz")
-m.groups()
+print(m.groups()) # ('foo', 'baz')
 ```
 
 ### Assertion

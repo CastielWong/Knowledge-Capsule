@@ -1,6 +1,6 @@
 
 - [Configuration](#configuration)
-- [Meta](#meta)
+- [Metadata](#metadata)
 - [Indexing](#indexing)
 - [Manipulation](#manipulation)
   - [Table Join](#table-join)
@@ -9,7 +9,7 @@
   - [Pivot](#pivot)
 - [GroupBy](#groupby)
 - [Null](#null)
-- [Regex](#regex)
+- [REGEX](#regex)
 - [Reference](#reference)
 
 
@@ -43,18 +43,18 @@ pd.reset_option("all")
 ```
 
 
-## Meta
+## Metadata
 ```py
 # read csv file
 df = pd.read_csv("{file}", header="infer", skiprows=[0, 1], skip_blank_lines=True)
 
 # convert list of JSON into DataFrame
-df = pd.DataFrame(data={json_list}, columns=["{column1}", "{column2}"])
+df = pd.DataFrame(data={json_list}, columns=["{column_1}", "{column_2}"])
 
 # set column names
-df.columns = ["{column1}", "{column2}"]
+df.columns = ["{column_1}", "{column_2}"]
 # rename specific columns
-df.rename(columns={"{oldName1}": "{newName1}", "{oldName2}": "{newName2}"}, inplace=True)
+df.rename(columns={"{old_name_1}": "{new_name_1}", "{old_name_2}": "{new_name_2}"}, inplace=True)
 
 # check columns type
 print(df.dtypes)
@@ -197,7 +197,6 @@ df["{col}"] = df["{col}"].map({"{value1}": 1, "{value2}": 2})
 ```
 
 ### Pivot
-
 ```py
 df = pd.DataFrame(data={
     "Day": ["2021-01-01", "2021-01-02", "2021-01-03", "2021-01-04", "2021-01-05"],
@@ -220,7 +219,6 @@ df_pivot = df_pivot["Price"].reset_index()
 
 
 ## GroupBy
-
 ```py
 check = pd.DataFrame(
     data={
@@ -250,7 +248,7 @@ df.dropna(subset=["{column}"], inplace=True)
 ```
 
 
-## Regex
+## REGEX
 ```py
 import re
 

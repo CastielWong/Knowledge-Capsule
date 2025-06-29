@@ -2,6 +2,8 @@
 - [OSI Model](#osi-model)
 - [Traffic Flow](#traffic-flow)
   - [Type Summary](#type-summary)
+- [PKI](#pki)
+  - [Common Commands](#common-commands)
 - [Component](#component)
   - [VPC](#vpc)
   - [Subnet](#subnet)
@@ -57,6 +59,34 @@ Client
 | Subnet           | Configuration       |
 | Internet Gateway | Software / Hardware |
 | EC2 Instance     | Software            |
+
+
+## PKI
+- PKI: Public Key Infrastructure
+- SSL: Secure Socket Layer
+- TSL: Transport Layer Security
+- DER: Distinguished Encoding Rules
+- PEM: Privacy Enhanced Mail
+- CRL: Certificate Revocation Lists
+- OCSP: Online Certificate Status Protocol
+
+Certificates are typically stored in:
+- /etc/ssl/certs/
+- /usr/local/share/ca-certificates/
+
+Add/Remove a cert in the location, then run `update-ca-certificates` should
+install/uninstall it from the Certificate Store (system's trusted list).
+
+### Common Commands
+```sh
+# inspect server certificate chain
+openssl s_client -connect {website}:{port} -showcerts
+# verify a server's certificate against specific CA cert
+openssl s_client -connect {website}:{port} -CAfile /etc/ssl/certs/ca-certificates.crt
+
+# display details of an X.509 certificate
+openssl x509 -in /usr/local/share/ca-certificates/xxx.crt -text -noout
+```
 
 
 ## Component

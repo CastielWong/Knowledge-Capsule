@@ -55,7 +55,7 @@
 - combine, merge, amalgamate, fuse, melt, coalesce, conjugate, brigade
 - envy, begrudge
 - restrict, inhibit, constrain, suppress, restrain, refrain, confine, hedge, stifle, subdue
-- announce, disseminate, propagate, set forth
+- announce, disseminate, propagate, set forth, promulgate
 - wander, saunter, loaf
 - reflect, ruminate
 - elicit, derive
@@ -121,7 +121,7 @@
 - repeat, reprise
 - summary, recapitulate
 - tempt, lure, allure, induce
-- object, oppose, gainsaid, thwart
+- object, oppose, gainsaid, thwart, contradict, contravene
 - prepare, gird
 - enhance, strengthen, underpin, redound
 - draft, scribble, scratch

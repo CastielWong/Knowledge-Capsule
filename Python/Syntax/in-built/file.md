@@ -1,5 +1,5 @@
 
-- [Meta](#meta)
+- [Statistics](#statistics)
 - [IO](#io)
   - [Standard](#standard)
   - [Text](#text)
@@ -11,13 +11,14 @@
 - [Reference](#reference)
 
 
-## Meta
+## Statistics
 ```py
 import os
 
-print(os.path.getsize("{file}"))
+file_name = ""
+print(os.path.getsize(file_name))
 
-stats = os.stat("{file}")
+stats = os.stat(file_name)
 print(stats.st_size)
 ```
 
@@ -65,7 +66,7 @@ while line:
 ### CSV
 ```py
 # read input from file
-with open("{file}.csv", mode="r", encoding="utf-8") as file_reader:
+with open(f"{file}.csv", mode="r", encoding="utf-8") as file_reader:
     # note that it's `readline()` but not `read()`
     line = file_reader.readline()
 
@@ -166,8 +167,8 @@ with open("{file}.yaml", "r", encoding="utf-8") as file_reader:
 ```py
 import shutil
 
-shutil.copyfile({file_source}, {file_target})
-shutil.copytree({dir_source}, {dir_target}, dirs_exist_ok=True)
+shutil.copyfile(source_file, target_file)
+shutil.copytree(source_dir, target_dir, dirs_exist_ok=True)
 ```
 
 

@@ -34,9 +34,14 @@ class Item:
     def __str__(self) -> str:
         return f"{self.name} - {self.price}"
 
+    def __repr__(self) -> str:
+        return f"({self.name} - {self.price})"
+
 items = []
 items.append(Item("apple", 1, 1.95))
 items.append(Item("banana", 2, 2.85))
 items.append(Item("Cherry", 3, 5.99))
+# without `__repr__`:   [Item(name='apple', identifier=1, price=1.95, ...)]
+# with `__repr__`:      [(apple - 1.95), ...]
 print(items)
 ```

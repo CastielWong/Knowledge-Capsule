@@ -6,7 +6,6 @@
   - [Special Parameter](#special-parameter)
   - [Dynamic](#dynamic)
 - [Comprehension](#comprehension)
-- [Generator](#generator)
 - [Import](#import)
 - [Log](#log)
 - [Concatenation](#concatenation)
@@ -119,24 +118,37 @@ enforce the argument passing.
 For instance,
 ```py
 def strange_func(a, b, /, c, *, d, e):
-    pass
+    "c can be either positional or keyword argument"
+    print(a, b, c, d, e)
+    return
 
 # valid
+# 1, 2, 3, 4, 5
 strange_func(1, 2, 3, d=4, e=5)
+# 1, 2, 3, 4, 5
 strange_func(1, 2, c=3, d=4, e=5)
+# 2, 1, 3, 4, 5
+strange_func(2, 1, e=5, d=4, c=3)
 
 # invalid
+# TypeError: strange_func() got multiple values for argument 'c'
+strange_func(1, 2, 9, c=3, 4, 5)
+# TypeError: strange_func() takes 3 positional arguments but 5 were given
 strange_func(1, 2, 3, 4, 5)
+# SyntaxError: positional argument follows keyword argument
 strange_func(a=1, 2, 3, d=4, e=5)
+# TypeError: strange_func() takes 3 positional arguments but 4 positional arguments (and 1 keyword-only argument) were given
 strange_func(1, 2, 3, 4, e=5)
+# TypeError: strange_func() got an unexpected keyword argument 'f'
+strange_func(1, 2, 3, 4, e=5, f=6)
 ```
 
-| Left side | Divider | Right side |
-| --- | --- | --- |
-| Positional arguments only | / | Positional or Keyword arguments |
-| Positional or Keyword arguments | * | Keyword arguments only |
+| Left side                       | Divider | Right side                      |
+|---------------------------------|---------|---------------------------------|
+| Positional arguments only       | /       | Positional or Keyword arguments |
+| Positional or Keyword arguments | *       | Keyword arguments only          |
 
-Note that `/` must be in front of `*`  when both are applied in the function.
+Note that `/` must be in front of `*` when both are applied in the function.
 
 ### Dynamic
 Extract arguments out from a function in dynamic ways:
@@ -169,7 +181,7 @@ print(inspect.signature(demo_method))
 # ["arg0", "arg1", "arg2"]
 print(inspect.getfullargspec(demo_method).args)
 
-# via bulitin __code__
+# via builtin __code__
 code_obj = demo_method.__code__
 # ("arg0", "arg1", "arg2")
 print(code_obj.co_varnames[:code_obj.co_argcount])
@@ -202,47 +214,6 @@ print(comp_dict)    # {1: 1, -9: 81, 10: 100, 3: 9, -5: 25}
 
 
 -------------------------------------------------------------------------------
-## Generator
-Generator functions are a special kind of function that return a laze iterator.
-
-For instance, when a file is opened, a generator would loop through each line
-then yields each row, other than read all lines and return as a whole.
-```py
-# generator function
-def csv_reader(file_name):
-    for row in open(file_name, "r"):
-        yield row
-
-# generator expression
-csv_gen = (row for row in open(file_name))
-```
-
-When the `yield` statement is hit, the program suspends function execution and returns the yielded value to the caller.
-In contrast, return stops function execution completely.
-When a function is suspended, the state of that function is saved.
-This includes any variable bindings local to the generator, the instruction pointer,
-the internal stack, and any exception handling.
-
-`next()` is callable for generator object:
-```py
-def infinite_sequence():
-    num = 0
-    while True:
-        yield num
-        num += 1
-
-generator = infinite_sequence()
-print(next(generator))
-print(next(generator))
-
-nums_list = [num**2 for num in range(5)]
-nums_generator = (num**2 for num in range(5))
-print(nums_list)        # [0, 1, 4, 9, 16]
-print(nums_generator)   # <generator object ...>
-```
-
-
--------------------------------------------------------------------------------
 ## Import
 Since the checking path for import differs, files in different modules may not be able to see others.
 Reset `sys.path` is an approach to solve such problem.
@@ -255,7 +226,6 @@ For the project structure like:
     - demo.py
 
 The import statements for "demo.py" can be:
-
 ```py
 import os
 import sys
@@ -267,7 +237,6 @@ from package import module_a
 ```
 
 For runtime import, `importlib` can be utilized to locate the customized modules:
-
 ```py
 import importlib
 
@@ -304,7 +273,7 @@ import itertools
 alphabet = ["alpha", "beta", "gamma"]
 lists = [a, b, alphabet]
 for element_tuple in itertools.product(*lists):
-    print(element_tuple)  # ("a", 1, "alpha"), ..., ('b', 2, 'gamma')
+    print(element_tuple)  # ('a', 1, 'alpha'), ('a', 1, 'beta'), ..., ('b', 2, 'gamma')
 ```
 
 
@@ -353,7 +322,8 @@ print("12".isnumeric())  # True
 import string
 import random
 
-strings = random.choices(string.ascii_lowercase + string.digits, k=8)
+length = 8
+strings = random.choices(string.ascii_lowercase + string.digits, k=length)
 randomized_string = "".join(strings)
 print(f"{randomized_string = }")
 # ---------------------------------------------------------
@@ -432,7 +402,7 @@ def get_prices_with_loop():
         )
     return prices
 
-# time cost: map < comprehension < loop
+# time cost: comprehension < loop < map
 print(timeit.timeit(get_prices_with_map, number=100))
 print(timeit.timeit(get_prices_with_comprehension, number=100))
 print(timeit.timeit(get_prices_with_loop, number=100))

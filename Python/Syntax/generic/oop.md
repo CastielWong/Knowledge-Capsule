@@ -9,7 +9,8 @@
   - [Formal](#formal)
 - [Reference](#reference)
 
-Even though Python was not designed for Object-Oriented Programming at the very beginning, it provides more and more features to support OOP.
+Even though Python was not designed for Object-Oriented Programming at the very beginning,
+it provides more and more features to support OOP.
 
 
 ## Anatomy
@@ -73,22 +74,16 @@ if __name__ == "__main__":
 A general way to access attributes:
 ```py
 class Employee:
-    """
-    Create docstring...
-    """
+    """Sample docstring..."""
 
     def __init__(self, first, last):
-        """
-        Sample docstring for constructor.
-        """
+        """Initialize for constructor."""
         self.first = first
         self.last = last
         self.email = f"{first}.{last}@email.com"
 
     def fullname(self):
-        """
-        Sample docstring for fullname().
-        """
+        """Return full name."""
         return f"{self.first} {self.last}"
 
 
@@ -105,8 +100,7 @@ print(emp.fullname())   # Jane Doe
 ```
 
 It turns out that some of the attributes would be corrupted.
-So Python introduces Property decorator to take care Getter, Setter and Deleter for attributes.
-
+So Python introduces Property decorator to take care of Getter, Setter and Deleter for attributes.
 ```py
 class Employee:
     def __init__(self, first, last, age=-1):
@@ -167,7 +161,8 @@ The informal Interface can be quite confusing, it's suggested to implement forma
 ### Informal
 Informal Interface doesn't guarantee the implementation of each method inside the interface.
 
-For the example code below, though both `Achiever` and `Partaker` both inherit(implement) `InfromalInterface`, `Partaker` doesn't implement all methods required.
+For the example code below, though both `Achiever` and `Partaker` both inherit(implement) `InformalInterface`,
+`Partaker` doesn't implement all methods required.
 For that reason, we don't expect `Partaker` is a subclass of `InformalInterface` theoretically.
 ```py
 class InformalInterface:
@@ -334,7 +329,7 @@ print(Achiever())       # an Achiever object
 print(Partaker())       # TypeError thrown
 ```
 
-Even though there is no compiled error when defining `Partaker`, error will be thrown when it's about to instantiate.
+There is no compiled error when defining `Partaker`, but error would be thrown when it's about to instantiate.
 
 
 ## Reference

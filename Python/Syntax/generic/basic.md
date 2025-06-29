@@ -29,6 +29,7 @@
 ### Status Bar
 There are two ways to keep printing message overwrite within a line.
 The fitted case for it will be monitoring jobs finished in different time.
+
 Note that there will be IO issue in the `print` example code when `time.sleep()` applied.
 So the example below use a larger number in iteration to demonstrate the effect.
 ```py
@@ -265,7 +266,7 @@ s = """this is a string
 """
 # find the first occurrence of "is"
 s.find("is")  # 2
-# find the first occurrence of "is" since index 5
+# find the first occurrence of "is" starting from index 5
 s.find("is", 5)  # 5
 s.find("that")  # -1
 

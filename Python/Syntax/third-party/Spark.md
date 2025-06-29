@@ -1,6 +1,6 @@
 
 - [Initialization](#initialization)
-- [Meta](#meta)
+- [Metadata](#metadata)
 - [Basic](#basic)
 - [Formatting](#formatting)
 - [Function](#function)
@@ -23,11 +23,14 @@ df.show(5)
 ```
 
 
-## Meta
+## Metadata
 ```py
 from pyspark.sql.types import StructField, StringType, IntegerType, StructType
 
-data_schema = [StructField("{col1}", IntegerType(), True), StructField("{col2}", StringType(), True)]
+data_schema = [
+    StructField("{col1}", IntegerType(), True),
+    StructField("{col2}", StringType(), True),
+]
 final_struc = StructType(fields=data_schema)
 df = spark.read.json('{file}.json', schema=final_struc)
 ```
