@@ -1,4 +1,9 @@
 
+- branch, ramification
+- repayment, restitution, reimbursement
+- wedge, shim
+- dictionary, lexicon, thesaurus
+- featuritis, scope creep
 - stipend, remuneration, allowance
 - monolith, boulder
 - diversity, multiformity
@@ -9,7 +14,7 @@
 - overview, roundup, sumup, summary
 - lack, dearth, scarcity
 - pattern, paradigm
-- dilemma, quandary, pickle
+- dilemma, quandary, predicament
 - right, entitlement
 - risk, peril
 - consistency, conformance
@@ -24,7 +29,7 @@
 - source, origin, provenance
 - dichotomy, duality
 - illness, ailment
-- result, consequence, upshot
+- result, consequence, upshot, ramification
 - slogan, catchphrase
 - loyalty, allegiance
 - possibility, likelihood, odds
