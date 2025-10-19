@@ -1,4 +1,6 @@
 
+- secret, undercover
+- delicious, delectable
 - actual, real, down-to-earth, realistic, practical, pragmatic, literal
 - cutting-edge, state-of-the-art, top-notch, leading-edge
 - arcane, mysterious, cryptic
@@ -8,6 +10,7 @@
 - tempting, alluring, intriguing, absorbing, attractive
 - native, inherent, inborn, instinctive, innate, vernacular
 - difficult, challenging, troublesome, thorny
+- bothersome, disgusting, annoying, pesky
 - disappointed, bleak
 - naive, nascent
 - specific, particular, idiosyncratic
@@ -25,7 +28,7 @@
 - serious, acute, dire, abysmal
 - important, vital, crucial, imperative
 - destined, bound
-- fake, fraudulent, counterfeit, spurious
+- fake, fraudulent, counterfeit, spurious, bogus
 - busy, hectic
 - complicated, sophisticated, complex, elaborate, tangled
 - passionate, avid, eager, zealous, enthusiastic
@@ -59,7 +62,7 @@
 - proficient, adept, experienced skillful, seasoned, versed, virtuoso
 - indifferent, offish
 - normal, mundane
-- many, various, numerous, umpteen, multifarious
+- many, various, numerous, umpteen, multifarious, abundant, copious
 - few, sporadic, scattered
 - foreign, external, extraneous
 - antique, archaic
@@ -80,7 +83,7 @@
 - obscure, fuzzy, uncertain
 - redundant, surplus
 - rough, coarse, cursory
-- temporary, transient, provisional, ephemeral, makeshift
+- temporary, transient, provisional, ephemeral, makeshift, temporal, fleeting
 - rude, reckless, imprudent, rash, impertinent
 - dangerous, precarious
 - enough, adequate
@@ -103,7 +106,7 @@
 - innocent, innocuous, harmless
 - rational, logical
 - nervous, unnerving
-- simple, easy, mundane
+- simple, easy, mundane, effortless
 - harmful, crippling
 - unnecessary, superfluous
 - shocking, astonished, astounding

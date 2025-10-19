@@ -1,4 +1,10 @@
 
+- stop, deter
+- decrease, reduce, lessen, pare
+- cut, chop, slash, shear
+- fake, forge, falsify, fiddle
+- disguise, masquerade, guise
+- stress, strain, nerve
 - abandon, waive, relinquish, renounce, forfeit, abstain, forgo, give up, ditch
 - accept, agree, take in, receive, concur
 - show, exhibit, present, demonstrate, showcase
@@ -25,7 +31,8 @@
 - spread, scatter, disperse, distribute, intersperse
 - interfere, intervene, disrupt, interject
 - clarify, articulate, elucidate, expound, elaborate, illuminate, demystify
-- update, renovate, revamp
+- update, renovate, revamp, retrofit
+- improve, polish, revamp, ameliorate, brush up
 - check, vet, review, scrutinize, examine
 - disdain, contempt, despite, scorn
 - restore, reinstate, recover, reactivate, rejuvenate, recuperate, rehabilitate
@@ -41,9 +48,7 @@
 - adjust, calibrate
 - solve, resolve, settle, address, deal, juggle, tackle, handle, overcome, dispose, wrestle, disentangle
 - suggest, advise, propose
-- easy, effortless
-- temporal, ephemeral, provisional, transient, fleeting
-- improve, polish, revamp, brush up
+- whittle
 - undertake, bear
 - jog, canter
 - pardon, absolve
@@ -136,6 +141,6 @@
 - echo, repercuss
 - interrupt, interject
 - aggravate
-- cheat, deceive, bilk
+- cheat, deceive, bilk, spoof, fool
 - craft, manipulate, finesse
 - harden, solidify, consolidate, underpin
