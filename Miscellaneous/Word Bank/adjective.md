@@ -1,4 +1,6 @@
 
+- misleading, confusing, garbled
+- worried, anxious, antsy
 - secret, undercover
 - delicious, delectable
 - actual, real, down-to-earth, realistic, practical, pragmatic, literal
@@ -66,7 +68,7 @@
 - few, sporadic, scattered
 - foreign, external, extraneous
 - antique, archaic
-- opposite, conversed, diametrical, adverse
+- opposite, converse, diametrical, adverse, recalcitrant
 - irresolvable, inextricable
 - silver, argent
 - knowledgeable, informed
@@ -113,4 +115,4 @@
 - change, alter, shift, switch, segue
 - nonsense, moot
 - volatile, fickle
-- intense, vehement, fierce, violent, drastic, furious
+- intense, vehement, fierce, violent, drastic, furious, atrocious

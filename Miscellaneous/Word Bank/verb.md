@@ -59,7 +59,7 @@
 - overturn, subvert
 - combine, merge, amalgamate, fuse, melt, coalesce, conjugate, brigade
 - envy, begrudge
-- restrict, inhibit, constrain, suppress, restrain, refrain, confine, hedge, stifle, subdue
+- restrict, inhibit, constrain, suppress, restrain, refrain, confine, hedge, stifle, subdue, curb
 - announce, disseminate, propagate, set forth, promulgate
 - wander, saunter, loaf
 - reflect, ruminate
