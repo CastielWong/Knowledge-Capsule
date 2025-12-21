@@ -6,6 +6,9 @@
   - [Dataset](#dataset)
   - [Statistics](#statistics)
   - [Graph](#graph)
+- [Benford's Law](#benfords-law)
+- [Zipf's Law](#zipfs-law)
+- [Laplace Distribution](#laplace-distribution)
 - [Reference](#reference)
 
 
@@ -98,6 +101,19 @@ statisticians that "numerical calculations are exact, but graphs are rough"
 
 ### Graph
 ![Anscombe's Quartet.png](<picture/Anscombe's Quartet.png>)
+
+
+-------------------------------------------------------------------------------
+## Benford's Law
+P(d) = Log<sub>10</sub>(1 + 1/d)
+
+-------------------------------------------------------------------------------
+## Zipf's Law
+Rank * Frequency ≈ Constant
+
+
+-------------------------------------------------------------------------------
+## Laplace Distribution
 
 -------------------------------------------------------------------------------
 ## Reference

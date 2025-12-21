@@ -17,7 +17,7 @@
 - naive, nascent
 - specific, particular, idiosyncratic
 - significant, salient, outstanding, prominent, protruding, eminent, profound, phenomenal, telling
-- obvious, apparent, pronounced, clear-cut, ostensive, palpable
+- obvious, apparent, conspicuous, pronounced, clear-cut, ostensive, palpable
 - popular, sought-after, prevalent, prevailing
 - big, large, huge, giant, colossal, massive, tremendous, mammoth, enormous, ginormous, whopping
 - clear, lucid, legible, plain
@@ -110,6 +110,7 @@
 - nervous, unnerving
 - simple, easy, mundane, effortless
 - harmful, crippling
+- deadly, pernicious
 - unnecessary, superfluous
 - shocking, astonished, astounding
 - change, alter, shift, switch, segue

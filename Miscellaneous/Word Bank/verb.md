@@ -1,4 +1,5 @@
 
+- deny, negate, repudiate
 - stop, deter
 - decrease, reduce, lessen, pare
 - cut, chop, slash, shear
